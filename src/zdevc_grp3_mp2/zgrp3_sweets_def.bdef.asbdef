@@ -1,0 +1,33 @@
+managed implementation in class zbp_grp3_sweets_def unique;
+//strict;
+
+define behavior for zgrp3_sweets_DEF //alias <alias_name>
+persistent table ZGRP03_SWEETS
+lock master
+//authorization master ( instance )
+//etag master <field_name>
+
+{
+// semantic key is calculated in a determination
+field ( readonly ) ARTIKELNUMMER;
+// administrative fields (read only)
+field ( readonly ) UNAME, datum;
+//created_by;
+// mandatory fields that are required to create a travel
+field ( mandatory ) ARTIKELGRUPPE, ARTIKELNAME;
+//// mandatory fields that are required to create a travel
+//field ( mandatory ) Begin_Date, End_Date, Customer_ID;
+//// standard operations for travel entity
+  create;
+  update;
+  delete;
+  // instance action and dynamic action control
+  action ( features : instance ) auslisten result [1] $self;
+  // validations
+//  validation validateartikelgruppe on save { field ARTIKELGRUPPE; }
+//  validation validateDates    on save { field datum; }
+//  validation validateAgency   on save { field agency_id; }
+  // determination
+//  determination CalculateTravelKey on modify { create; }
+//  determination get_nummer on modify { create; }
+}

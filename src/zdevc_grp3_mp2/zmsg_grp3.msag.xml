@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZMSG_GRP3</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Nachrichtenklasse der Gruppe 03</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Artikel &amp;1 ist in unserem Sortiment nicht vorhanden oder ist ausgelistet!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Preisänderung für den Artikel &amp;1 nicht möglich!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Der neue Verkaufspreis von &amp;1 € liegt mind. 25% über dem aktuellen VK!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Artikelnummer &amp;1 ist bereits vorhanden!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Die nächste verfügbare Artikelnummer ist &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Ein Artikel mit der Nummer &amp;1 ist nicht vorhanden!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Der Artikelpreis wurde erfolgreich auf &amp;1 geändert!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Der Artikel &amp;1 wurde erfolgreich in das Sortiment aufgenommen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Der Artikel &amp;1 wurde erfolreich aus dem Sortiment entfernt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Die Artikelliste wurde erfolgreich für &amp;1 ausgegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Die Auslistung des Artikels &amp;1 war nicht erfolreich!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Der aktuelle Lagerbestand von ZG03_AKTLAGERBEST ist zu hoch!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Zu den angegebenen Suchkriterien wurden keine Einträge gefunden!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Die Artikelgruppe &amp;1 stimmt nicht mit dem Artikel überein!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Die Artikelgruppe &amp;1 muss zu der Gruppe der Artikelnummer &amp;2 passen!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Die Filialdaten wurden nicht geändert.Bitte überprüfen Sie ihre Eingaben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Die neue Filiale wurde nicht angelegt. Bitte Eingabe prüfen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Die Verteilmengen stimmen nicht überein.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Umlagerung nicht möglich, weil der Mindestbestand unterschritten wird.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Umlagerung nicht möglich, weil der Maximalbestand überschritten wird.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Der Artikel &amp;1 wurde erfolgreich in die ausgewählten Filialen umgelagert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Ein Fehler ist aufgetreten! Die Umlagerung war nicht möglich.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Umlagerung konnte nicht durchgeführt werden. Die Filiale existiert nicht.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Bitte unterschiedliche Filialen eingeben!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Die Umlagerung wurde erfolgreich durchgeführt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Der Artikel &amp;1 wurde erfolgreich in die Filiale &amp;2 umgelagert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP3</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Das Feld Filialnummer ist leer.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,1 @@
+sap.ui.define(["zgrp3_trf_swm/test/unit/controller/strom_vergleich.controller"],function(){"use strict"});                                                                                                                                                     

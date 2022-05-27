@@ -1,0 +1,1 @@
+sap.ui.define(["sap/suite/ui/generic/template/lib/AppComponent"],function(e){"use strict";return e.extend("zdevcgrp3mp2.zgrp3sweetsapp.Component",{metadata:{manifest:"json"}})});                                                                             

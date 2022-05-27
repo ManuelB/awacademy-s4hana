@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>Z_OVERALL_STATUS</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>Z_OVERALL_STATUS</DOMNAME>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Gesamtstatus</DDTEXT>
+    <REPTEXT>Gesamtstatus</REPTEXT>
+    <SCRTEXT_S>GesStatus</SCRTEXT_S>
+    <SCRTEXT_M>Gesamtstatus</SCRTEXT_M>
+    <SCRTEXT_L>Gesamtstatus</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>7</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>总体状态</DDTEXT>
+     <REPTEXT>总体状态</REPTEXT>
+     <SCRTEXT_S>总体状态</SCRTEXT_S>
+     <SCRTEXT_M>总体状态</SCRTEXT_M>
+     <SCRTEXT_L>总体状态</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>สถานะโดยรวม</DDTEXT>
+     <REPTEXT>สถานะโดยรวม</REPTEXT>
+     <SCRTEXT_S>สถานะรวม</SCRTEXT_S>
+     <SCRTEXT_M>สถานะโดยรวม</SCRTEXT_M>
+     <SCRTEXT_L>สถานะโดยรวม</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>전체 상태</DDTEXT>
+     <REPTEXT>전체 상태</REPTEXT>
+     <SCRTEXT_S>전체 상태</SCRTEXT_S>
+     <SCRTEXT_M>전체 상태</SCRTEXT_M>
+     <SCRTEXT_L>전체 상태</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Stare globală</DDTEXT>
+     <REPTEXT>Stare globală</REPTEXT>
+     <SCRTEXT_S>StareGlob</SCRTEXT_S>
+     <SCRTEXT_M>Stare globală</SCRTEXT_M>
+     <SCRTEXT_L>Stare globală</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>7</DDLANGUAGE>
+     <DDTEXT>Status Keseluruhan</DDTEXT>
+     <REPTEXT>Status Keseluruhan</REPTEXT>
+     <SCRTEXT_S>SttsKslrhn</SCRTEXT_S>
+     <SCRTEXT_M>Stts Kslrh</SCRTEXT_M>
+     <SCRTEXT_L>Status Keseluruhan</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>الحالة الكلية</DDTEXT>
+     <REPTEXT>الحالة الكلية</REPTEXT>
+     <SCRTEXT_S>حالة كلية</SCRTEXT_S>
+     <SCRTEXT_M>الحالة الكلية</SCRTEXT_M>
+     <SCRTEXT_L>الحالة الكلية</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>סטאטוס כולל</DDTEXT>
+     <REPTEXT>סטאטוס כולל</REPTEXT>
+     <SCRTEXT_S>סטאטוס כו.</SCRTEXT_S>
+     <SCRTEXT_M>סטאטוס כולל</SCRTEXT_M>
+     <SCRTEXT_L>סטאטוס כולל</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Celkový status</DDTEXT>
+     <REPTEXT>Celkový status</REPTEXT>
+     <SCRTEXT_S>Celk.stat.</SCRTEXT_S>
+     <SCRTEXT_M>Celkový status</SCRTEXT_M>
+     <SCRTEXT_L>Celkový status</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Overall Status</DDTEXT>
+     <REPTEXT>Overall Status</REPTEXT>
+     <SCRTEXT_S>OverallSts</SCRTEXT_S>
+     <SCRTEXT_M>Overall Sts</SCRTEXT_M>
+     <SCRTEXT_L>Overall Status</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Statut global</DDTEXT>
+     <REPTEXT>Statut global</REPTEXT>
+     <SCRTEXT_S>St. global</SCRTEXT_S>
+     <SCRTEXT_M>Statut global</SCRTEXT_M>
+     <SCRTEXT_L>Statut global</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Γενική Κατάσταση</DDTEXT>
+     <REPTEXT>Γενική Κατάσταση</REPTEXT>
+     <SCRTEXT_S>ΣυνολΚατάσ</SCRTEXT_S>
+     <SCRTEXT_M>Γενικ.Κατάστ.</SCRTEXT_M>
+     <SCRTEXT_L>Γενική Κατάσταση</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Összstátus</DDTEXT>
+     <REPTEXT>Összstátus</REPTEXT>
+     <SCRTEXT_S>Összstátus</SCRTEXT_S>
+     <SCRTEXT_M>Összstátus</SCRTEXT_M>
+     <SCRTEXT_L>Összstátus</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Stato globale</DDTEXT>
+     <REPTEXT>Stato globale</REPTEXT>
+     <SCRTEXT_S>Stato glob</SCRTEXT_S>
+     <SCRTEXT_M>Stato globale</SCRTEXT_M>
+     <SCRTEXT_L>Stato globale</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>全体ステータス</DDTEXT>
+     <REPTEXT>全体ステータス</REPTEXT>
+     <SCRTEXT_S>全体Status</SCRTEXT_S>
+     <SCRTEXT_M>全体ステータス</SCRTEXT_M>
+     <SCRTEXT_L>全体ステータス</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Samlet status</DDTEXT>
+     <REPTEXT>Samlet status</REPTEXT>
+     <SCRTEXT_S>Sml.Status</SCRTEXT_S>
+     <SCRTEXT_M>Samlet status</SCRTEXT_M>
+     <SCRTEXT_L>Samlet status</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Ogólny status</DDTEXT>
+     <REPTEXT>Ogólny status</REPTEXT>
+     <SCRTEXT_S>Og. status</SCRTEXT_S>
+     <SCRTEXT_M>Ogólny status</SCRTEXT_M>
+     <SCRTEXT_L>Ogólny status</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>整體狀態</DDTEXT>
+     <REPTEXT>整體狀態</REPTEXT>
+     <SCRTEXT_S>整體狀態</SCRTEXT_S>
+     <SCRTEXT_M>整體狀態</SCRTEXT_M>
+     <SCRTEXT_L>整體狀態</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Totale status</DDTEXT>
+     <REPTEXT>Totale status</REPTEXT>
+     <SCRTEXT_S>Ttl.status</SCRTEXT_S>
+     <SCRTEXT_M>Totale status</SCRTEXT_M>
+     <SCRTEXT_L>Totale status</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Totalstatus</DDTEXT>
+     <REPTEXT>Totalstatus</REPTEXT>
+     <SCRTEXT_S>Tot.status</SCRTEXT_S>
+     <SCRTEXT_M>Totalstatus</SCRTEXT_M>
+     <SCRTEXT_L>Totalstatus</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Status global</DDTEXT>
+     <REPTEXT>Status global</REPTEXT>
+     <SCRTEXT_S>StatusGlob</SCRTEXT_S>
+     <SCRTEXT_M>Status global</SCRTEXT_M>
+     <SCRTEXT_L>Status global</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Celkový status</DDTEXT>
+     <REPTEXT>Celkový status</REPTEXT>
+     <SCRTEXT_S>CelkStatus</SCRTEXT_S>
+     <SCRTEXT_M>Celkový status</SCRTEXT_M>
+     <SCRTEXT_L>Celkový status</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Общий статус</DDTEXT>
+     <REPTEXT>Общий статус</REPTEXT>
+     <SCRTEXT_S>Общ.статус</SCRTEXT_S>
+     <SCRTEXT_M>Общий статус</SCRTEXT_M>
+     <SCRTEXT_L>Общий статус</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Status global</DDTEXT>
+     <REPTEXT>Status global</REPTEXT>
+     <SCRTEXT_S>Estado gl.</SCRTEXT_S>
+     <SCRTEXT_M>Status global</SCRTEXT_M>
+     <SCRTEXT_L>Status global</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Genel durum</DDTEXT>
+     <REPTEXT>Genel durum</REPTEXT>
+     <SCRTEXT_S>Genel drm.</SCRTEXT_S>
+     <SCRTEXT_M>Genel durum</SCRTEXT_M>
+     <SCRTEXT_L>Genel durum</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Kokonaistila</DDTEXT>
+     <REPTEXT>Kokonaistila</REPTEXT>
+     <SCRTEXT_S>Kokon.tila</SCRTEXT_S>
+     <SCRTEXT_M>Kokonaistila</SCRTEXT_M>
+     <SCRTEXT_L>Kokonaistila</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Total status</DDTEXT>
+     <REPTEXT>Total status</REPTEXT>
+     <SCRTEXT_S>Tot.st.</SCRTEXT_S>
+     <SCRTEXT_M>Total status</SCRTEXT_M>
+     <SCRTEXT_L>Total status</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZGRP2_MP2</DOMNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>105/106 meaning for Grp 2</DDTEXT>
+    <APPENDNAME>BWART</APPENDNAME>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZGRP2_MP2</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>105</DOMVALUE_L>
+     <DDTEXT>Die Filiale nimmt den Artikel ins Inventar</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZGRP2_MP2</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>106</DOMVALUE_L>
+     <DDTEXT>Die Filiale gibt den Artikel aus dem Inventar</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

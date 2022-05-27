@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZGRP3_NACHRICHT</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>ZGRP3_D_NACHRICHT</DOMNAME>
+    <HEADLEN>19</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>19</SCRLEN2>
+    <SCRLEN3>19</SCRLEN3>
+    <DDTEXT>EDI  Nachrichtentyp</DDTEXT>
+    <REPTEXT>EDI  Nachrichtentyp</REPTEXT>
+    <SCRTEXT_S>EDI Nachr</SCRTEXT_S>
+    <SCRTEXT_M>EDI  Nachrichtentyp</SCRTEXT_M>
+    <SCRTEXT_L>EDI  Nachrichtentyp</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

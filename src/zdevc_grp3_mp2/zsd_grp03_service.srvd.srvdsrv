@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition für Dealing Sweets'
+define service ZSD_GRP03_Service {
+  expose ZGRp3_SWEETS_DEF_PR as SWeets_projection;
+}

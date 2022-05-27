@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CS_GRP1_CALLCENTERAGENT</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Globale Klasse Callcenter-Agent</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CS_GRP1_CALLCENTERAGENT</CLSNAME>
+     <CMPNAME>STATUS_ABFRAGEN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kundenwechselstatus abfragen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CS_GRP1_CALLCENTERAGENT</CLSNAME>
+     <CMPNAME>TELEFONNUMMER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Telefonnummer</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>Z_S02_IF_AIRPLANE</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Interface</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>Z_S02_IF_AIRPLANE</CLSNAME>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Class-Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>Z_S02_IF_AIRPLANE</CLSNAME>
+     <CMPNAME>CONSTRUKTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>construktor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>Z_S02_IF_AIRPLANE</CLSNAME>
+     <CMPNAME>DISPLAY_ATTRIBUTES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>DISPLAY_ATTRIBUTES</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>Z_S02_IF_AIRPLANE</CLSNAME>
+     <CMPNAME>DISPLAY_N_O_O_AIRPLANES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>display noo airplanes at all</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>Z_S02_IF_AIRPLANE</CLSNAME>
+     <CMPNAME>GET_N_NO_AIRPLANES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Get number of no airplanes at all</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

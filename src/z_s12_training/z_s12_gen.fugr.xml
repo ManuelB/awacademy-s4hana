@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>General Funktiongroup</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ_S12_GENTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ_S12_GEN</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_RFC_CREATE_FILIALE</FUNCNAME>
+     <SHORT_TEXT>FUBA für Filialen</SHORT_TEXT>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZS05_OPERATOR</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>ZS05_D_OPERATOR</DOMNAME>
+    <HEADLEN>08</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Rechenoperator + - * /</DDTEXT>
+    <REPTEXT>Operator</REPTEXT>
+    <SCRTEXT_S>Operator</SCRTEXT_S>
+    <SCRTEXT_M>Operator</SCRTEXT_M>
+    <SCRTEXT_L>Operator</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>算术运算符 + - * /</DDTEXT>
+     <REPTEXT>运算符</REPTEXT>
+     <SCRTEXT_S>运算符</SCRTEXT_S>
+     <SCRTEXT_M>运算符</SCRTEXT_M>
+     <SCRTEXT_L>运算符</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>ตัวดำเนินการทางคณิตศาสตร์ + - * /</DDTEXT>
+     <REPTEXT>Operator</REPTEXT>
+     <SCRTEXT_S>Operator</SCRTEXT_S>
+     <SCRTEXT_M>ตัวดำเนินการ</SCRTEXT_M>
+     <SCRTEXT_L>ตัวดำเนินการ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>산술연산자 + - * /</DDTEXT>
+     <REPTEXT>연산자</REPTEXT>
+     <SCRTEXT_S>연산자</SCRTEXT_S>
+     <SCRTEXT_M>연산자</SCRTEXT_M>
+     <SCRTEXT_L>연산자</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>المعامل الحسابي + - * /</DDTEXT>
+     <REPTEXT>مشغل</REPTEXT>
+     <SCRTEXT_S>مشغل</SCRTEXT_S>
+     <SCRTEXT_M>مشغل</SCRTEXT_M>
+     <SCRTEXT_L>مشغل</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>אופרטור אריתמטי + - * /</DDTEXT>
+     <REPTEXT>אופרטור</REPTEXT>
+     <SCRTEXT_S>אופרטור</SCRTEXT_S>
+     <SCRTEXT_M>אופרטור</SCRTEXT_M>
+     <SCRTEXT_L>אופרטור</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Aritmetický operátor + - * /</DDTEXT>
+     <REPTEXT>Operátor</REPTEXT>
+     <SCRTEXT_S>Operátor</SCRTEXT_S>
+     <SCRTEXT_M>Operátor</SCRTEXT_M>
+     <SCRTEXT_L>Operátor</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Arithmetic operator + - * / R</DDTEXT>
+     <REPTEXT>Operator</REPTEXT>
+     <SCRTEXT_S>Operator</SCRTEXT_S>
+     <SCRTEXT_M>Operator</SCRTEXT_M>
+     <SCRTEXT_L>Operator</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Opérateur arithmétique + - * /</DDTEXT>
+     <REPTEXT>Opérat.</REPTEXT>
+     <SCRTEXT_S>Opérateur</SCRTEXT_S>
+     <SCRTEXT_M>Opérateur</SCRTEXT_M>
+     <SCRTEXT_L>Opérateur</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Αριθμητικός Τελεστής + - * /</DDTEXT>
+     <REPTEXT>Τελεστής</REPTEXT>
+     <SCRTEXT_S>Τελεστής</SCRTEXT_S>
+     <SCRTEXT_M>Τελεστής</SCRTEXT_M>
+     <SCRTEXT_L>Τελεστής</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Számítási operátor + - * /</DDTEXT>
+     <REPTEXT>Operátor</REPTEXT>
+     <SCRTEXT_S>Operátor</SCRTEXT_S>
+     <SCRTEXT_M>Operátor</SCRTEXT_M>
+     <SCRTEXT_L>Operátor</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Operatore aritmetico + - * /</DDTEXT>
+     <REPTEXT>Operat.</REPTEXT>
+     <SCRTEXT_S>Operatore</SCRTEXT_S>
+     <SCRTEXT_M>Operatore</SCRTEXT_M>
+     <SCRTEXT_L>Operatore</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>数学演算子 + - * /</DDTEXT>
+     <REPTEXT>演算子</REPTEXT>
+     <SCRTEXT_S>演算子</SCRTEXT_S>
+     <SCRTEXT_M>演算子</SCRTEXT_M>
+     <SCRTEXT_L>演算子</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Regneoperator + - * /</DDTEXT>
+     <REPTEXT>Operator</REPTEXT>
+     <SCRTEXT_S>Operator</SCRTEXT_S>
+     <SCRTEXT_M>Operator</SCRTEXT_M>
+     <SCRTEXT_L>Operator</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Operator arytmetyczny + - * /</DDTEXT>
+     <REPTEXT>Operator</REPTEXT>
+     <SCRTEXT_S>Operator</SCRTEXT_S>
+     <SCRTEXT_M>Operator</SCRTEXT_M>
+     <SCRTEXT_L>Operator</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>算數運算子 + - * /</DDTEXT>
+     <REPTEXT>運算子</REPTEXT>
+     <SCRTEXT_S>運算子</SCRTEXT_S>
+     <SCRTEXT_M>運算子</SCRTEXT_M>
+     <SCRTEXT_L>運算子</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Rekenoperator + - * /</DDTEXT>
+     <REPTEXT>Operator</REPTEXT>
+     <SCRTEXT_S>Operator</SCRTEXT_S>
+     <SCRTEXT_M>Operator</SCRTEXT_M>
+     <SCRTEXT_L>Operator</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Aritmetisk operator + - * /</DDTEXT>
+     <REPTEXT>Operator</REPTEXT>
+     <SCRTEXT_S>Operator</SCRTEXT_S>
+     <SCRTEXT_M>Operator</SCRTEXT_M>
+     <SCRTEXT_L>Operator</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Operador aritmético + - * /</DDTEXT>
+     <REPTEXT>Operador</REPTEXT>
+     <SCRTEXT_S>Operador</SCRTEXT_S>
+     <SCRTEXT_M>Operador</SCRTEXT_M>
+     <SCRTEXT_L>Operador</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Арифметический оператор + - * /</DDTEXT>
+     <REPTEXT>Оператор</REPTEXT>
+     <SCRTEXT_S>Оператор</SCRTEXT_S>
+     <SCRTEXT_M>Оператор</SCRTEXT_M>
+     <SCRTEXT_L>Оператор</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Operador aritmético + - * /</DDTEXT>
+     <REPTEXT>Operador</REPTEXT>
+     <SCRTEXT_S>Operador</SCRTEXT_S>
+     <SCRTEXT_M>Operador</SCRTEXT_M>
+     <SCRTEXT_L>Operador</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Hesaplama işleci + - * /</DDTEXT>
+     <REPTEXT>İşleç</REPTEXT>
+     <SCRTEXT_S>İşleç</SCRTEXT_S>
+     <SCRTEXT_M>İşleç</SCRTEXT_M>
+     <SCRTEXT_L>İşleç</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Laskuoperaattori + - * /</DDTEXT>
+     <REPTEXT>Operaat.</REPTEXT>
+     <SCRTEXT_S>Operaatt.</SCRTEXT_S>
+     <SCRTEXT_M>Operaattori</SCRTEXT_M>
+     <SCRTEXT_L>Operaattori</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Räkneoperator + - * /</DDTEXT>
+     <REPTEXT>Operator</REPTEXT>
+     <SCRTEXT_S>Operator</SCRTEXT_S>
+     <SCRTEXT_M>Operator</SCRTEXT_M>
+     <SCRTEXT_L>Operator</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

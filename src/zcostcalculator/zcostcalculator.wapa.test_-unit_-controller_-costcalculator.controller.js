@@ -1,0 +1,1 @@
+sap.ui.define(["costcalculator/controller/CostCalculator.controller"],function(t){"use strict";QUnit.module("CostCalculator Controller");QUnit.test("I should test the CostCalculator controller",function(o){var l=new t;l.onInit();o.ok(l)})});              

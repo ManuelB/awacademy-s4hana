@@ -1,0 +1,1 @@
+QUnit.config.autostart=false;sap.ui.getCore().attachInit(function(){"use strict";sap.ui.require(["zgrp3_swm_trf/test/unit/AllTests"],function(){QUnit.start()})});                                                                                             

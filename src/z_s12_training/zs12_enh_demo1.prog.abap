@@ -1,0 +1,14 @@
+REPORT zs12_enh_demo1.
+WRITE: / 'Zeile 1 Original'.
+ENHANCEMENT-SECTION ZS12 SPOTS ZS12 .
+WRITE: / 'Zeile 2 Original'.
+end-ENHANCEMENT-SECTION.
+WRITE: / 'Zeile 3 Original'.
+
+
+
+
+
+
+
+ENHANCEMENT-POINT Z12_DEMO1 SPOTS ZS12 .

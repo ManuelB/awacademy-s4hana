@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZS05_DEC5_2</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>DEC5_2</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Elementare Dezimalart mit 4 Dezimalstellen</DDTEXT>
+    <REPTEXT>Menge</REPTEXT>
+    <SCRTEXT_S>Menge</SCRTEXT_S>
+    <SCRTEXT_M>Menge</SCRTEXT_M>
+    <SCRTEXT_L>Menge</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>8</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>d</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>含 4 小数位的基本小数类型</DDTEXT>
+     <REPTEXT>数量</REPTEXT>
+     <SCRTEXT_S>数量</SCRTEXT_S>
+     <SCRTEXT_M>数量</SCRTEXT_M>
+     <SCRTEXT_L>数量</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>ประเภททศนิยมเบื้องต้นที่มีตำแหน่งทศนิยม 4 ตำแหน่ง</DDTEXT>
+     <REPTEXT>ปริมาณ</REPTEXT>
+     <SCRTEXT_S>ปริมาณ</SCRTEXT_S>
+     <SCRTEXT_M>ปริมาณ</SCRTEXT_M>
+     <SCRTEXT_L>ปริมาณ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>소수점 이하 4자리의 기본 십진수 유형</DDTEXT>
+     <REPTEXT>물량</REPTEXT>
+     <SCRTEXT_S>물량</SCRTEXT_S>
+     <SCRTEXT_M>물량</SCRTEXT_M>
+     <SCRTEXT_L>물량</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Tip zecimal elementar cu 4 poziţii zecimale</DDTEXT>
+     <REPTEXT>Cantitate</REPTEXT>
+     <SCRTEXT_S>Cantitate</SCRTEXT_S>
+     <SCRTEXT_M>Cantitate</SCRTEXT_M>
+     <SCRTEXT_L>Cantitate</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Elementarna vrsta decimalnega števila s 4 decimalnimi mesti</DDTEXT>
+     <REPTEXT>Količina</REPTEXT>
+     <SCRTEXT_S>Količina</SCRTEXT_S>
+     <SCRTEXT_M>Količina</SCRTEXT_M>
+     <SCRTEXT_L>Količina</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Osnovni decimalni tip s 4 decimalna mjesta</DDTEXT>
+     <REPTEXT>Količina</REPTEXT>
+     <SCRTEXT_S>Količina</SCRTEXT_S>
+     <SCRTEXT_M>Količina</SCRTEXT_M>
+     <SCRTEXT_L>Količina</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>8</DDLANGUAGE>
+     <DDTEXT>Елементарний десятковий тип з 4 десятковими розрядами</DDTEXT>
+     <REPTEXT>Кількість</REPTEXT>
+     <SCRTEXT_S>Кількість</SCRTEXT_S>
+     <SCRTEXT_M>Кількість</SCRTEXT_M>
+     <SCRTEXT_L>Кількість</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>النوع العشري الأولي بأربع منازل عشرية</DDTEXT>
+     <REPTEXT>الكمية</REPTEXT>
+     <SCRTEXT_S>الكمية</SCRTEXT_S>
+     <SCRTEXT_M>الكمية</SCRTEXT_M>
+     <SCRTEXT_L>الكمية</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>סוג עשרוני בסיסי עם 4 מקומות עשרוניים</DDTEXT>
+     <REPTEXT>כמות</REPTEXT>
+     <SCRTEXT_S>כמות</SCRTEXT_S>
+     <SCRTEXT_M>כמות</SCRTEXT_M>
+     <SCRTEXT_L>כמות</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Elemet.druh deset.čísla se 4 desetinnými místy</DDTEXT>
+     <REPTEXT>Množství</REPTEXT>
+     <SCRTEXT_S>Množství</SCRTEXT_S>
+     <SCRTEXT_M>Množství</SCRTEXT_M>
+     <SCRTEXT_L>Množství</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Elementary decimal type with 4 decimal places</DDTEXT>
+     <REPTEXT>Quantity</REPTEXT>
+     <SCRTEXT_S>Quantity</SCRTEXT_S>
+     <SCRTEXT_M>Quantity</SCRTEXT_M>
+     <SCRTEXT_L>Quantity</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Type décimal élémentaire avec 4 décimales</DDTEXT>
+     <REPTEXT>Quantité</REPTEXT>
+     <SCRTEXT_S>Quantité</SCRTEXT_S>
+     <SCRTEXT_M>Quantité</SCRTEXT_M>
+     <SCRTEXT_L>Quantité</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Βασικός τύπος δεκαδικών με 4 δεκαδικά ψηφία</DDTEXT>
+     <REPTEXT>Ποσότητα</REPTEXT>
+     <SCRTEXT_S>Ποσότητα</SCRTEXT_S>
+     <SCRTEXT_M>Ποσότητα</SCRTEXT_M>
+     <SCRTEXT_L>Ποσότητα</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Elemi tizedesfajta 4 tizedesjeggyel</DDTEXT>
+     <REPTEXT>Mennyiség</REPTEXT>
+     <SCRTEXT_S>Mennyiség</SCRTEXT_S>
+     <SCRTEXT_M>Mennyiség</SCRTEXT_M>
+     <SCRTEXT_L>Mennyiség</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Tipo decimale elementare con 4 posti decimali</DDTEXT>
+     <REPTEXT>Quantità</REPTEXT>
+     <SCRTEXT_S>Quantità</SCRTEXT_S>
+     <SCRTEXT_M>Quantità</SCRTEXT_M>
+     <SCRTEXT_L>Quantità</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>小数点以下 4 桁の基本小数点タイプ</DDTEXT>
+     <REPTEXT>数量</REPTEXT>
+     <SCRTEXT_S>数量</SCRTEXT_S>
+     <SCRTEXT_M>数量</SCRTEXT_M>
+     <SCRTEXT_L>数量</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Elementær decimaltype med 4 decimaler</DDTEXT>
+     <REPTEXT>Mængde</REPTEXT>
+     <SCRTEXT_S>Mængde</SCRTEXT_S>
+     <SCRTEXT_M>Mængde</SCRTEXT_M>
+     <SCRTEXT_L>Mængde</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Element. rodzaj. m. dzies. z 4 miejscami dzies.</DDTEXT>
+     <REPTEXT>Ilość</REPTEXT>
+     <SCRTEXT_S>Ilość</SCRTEXT_S>
+     <SCRTEXT_M>Ilość</SCRTEXT_M>
+     <SCRTEXT_L>Ilość</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>4 個小數位的基本小數類型</DDTEXT>
+     <REPTEXT>數量</REPTEXT>
+     <SCRTEXT_S>數量</SCRTEXT_S>
+     <SCRTEXT_M>數量</SCRTEXT_M>
+     <SCRTEXT_L>數量</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Elementaire decimaalsoort met 4 decimalen</DDTEXT>
+     <REPTEXT>Hoeveelh.</REPTEXT>
+     <SCRTEXT_S>Hoeveelh.</SCRTEXT_S>
+     <SCRTEXT_M>Hoeveelh.</SCRTEXT_M>
+     <SCRTEXT_L>Hoeveelh.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Elementær desimaltype med 4 desimaler</DDTEXT>
+     <REPTEXT>Kvantum</REPTEXT>
+     <SCRTEXT_S>Kvantum</SCRTEXT_S>
+     <SCRTEXT_M>Kvantum</SCRTEXT_M>
+     <SCRTEXT_L>Kvantum</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Tipo decimal elementar com 4 casas decimais</DDTEXT>
+     <REPTEXT>Quantidade</REPTEXT>
+     <SCRTEXT_S>Quantidade</SCRTEXT_S>
+     <SCRTEXT_M>Quantidade</SCRTEXT_M>
+     <SCRTEXT_L>Quantidade</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Základný druh desiat.zobrazenia so 4 desat.miestami</DDTEXT>
+     <REPTEXT>Množstvo</REPTEXT>
+     <SCRTEXT_S>Množstvo</SCRTEXT_S>
+     <SCRTEXT_M>Množstvo</SCRTEXT_M>
+     <SCRTEXT_L>Množstvo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Элементарный десятичный вид с 4 десятичными разрядами</DDTEXT>
+     <REPTEXT>Количество</REPTEXT>
+     <SCRTEXT_S>Количество</SCRTEXT_S>
+     <SCRTEXT_M>Количество</SCRTEXT_M>
+     <SCRTEXT_L>Количество</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Clase de decimal elemental con 4 decimales</DDTEXT>
+     <REPTEXT>Cantidad</REPTEXT>
+     <SCRTEXT_S>Cantidad</SCRTEXT_S>
+     <SCRTEXT_M>Cantidad</SCRTEXT_M>
+     <SCRTEXT_L>Cantidad</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>4 ondalık basamaklı temel ondalık türü</DDTEXT>
+     <REPTEXT>Miktar</REPTEXT>
+     <SCRTEXT_S>Miktar</SCRTEXT_S>
+     <SCRTEXT_M>Miktar</SCRTEXT_M>
+     <SCRTEXT_L>Miktar</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Perusdesimaalilaji, jossa 4 desimaalia</DDTEXT>
+     <REPTEXT>Määrä</REPTEXT>
+     <SCRTEXT_S>Määrä</SCRTEXT_S>
+     <SCRTEXT_M>Määrä</SCRTEXT_M>
+     <SCRTEXT_L>Määrä</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Elementär decimaltyp med 4 decimalpositioner</DDTEXT>
+     <REPTEXT>Mängd</REPTEXT>
+     <SCRTEXT_S>Mängd</SCRTEXT_S>
+     <SCRTEXT_M>Mängd</SCRTEXT_M>
+     <SCRTEXT_L>Mängd</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Елементарен десетичен вид с 4 десетични места</DDTEXT>
+     <REPTEXT>Количество</REPTEXT>
+     <SCRTEXT_S>Количество</SCRTEXT_S>
+     <SCRTEXT_M>Количество</SCRTEXT_M>
+     <SCRTEXT_L>Количество</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DDTEXT>Osnovni decimalni tip sa 4 decimalna mesta</DDTEXT>
+     <REPTEXT>Količina</REPTEXT>
+     <SCRTEXT_S>Količina</SCRTEXT_S>
+     <SCRTEXT_M>Količina</SCRTEXT_M>
+     <SCRTEXT_L>Količina</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_NROB" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <ATTRIBUTES>
+    <OBJECT>ZVERTRAG</OBJECT>
+    <DOMLEN>RANL</DOMLEN>
+    <PERCENTAGE>80.0</PERCENTAGE>
+    <CHANGED_AT>20220523170054.582728</CHANGED_AT>
+    <CHANGED_BY>AW-T03</CHANGED_BY>
+    <ENAME>AW-T03</ENAME>
+    <EDATE>2022-05-23</EDATE>
+    <ETIME>17:00:17</ETIME>
+   </ATTRIBUTES>
+   <TEXT>
+    <LANGU>D</LANGU>
+    <OBJECT>ZVERTRAG</OBJECT>
+    <TXT>Vertragsnummer</TXT>
+    <TXTSHORT>ZVERTRAG</TXTSHORT>
+    <ENAME>AW-T03</ENAME>
+    <EDATE>2022-05-23</EDATE>
+    <ETIME>17:00:17</ETIME>
+   </TEXT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

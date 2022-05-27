@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Funktionsgruppe für RFC</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZAWS04_RFC_FGRTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZAWS04_RFC_FGR</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZAWS04_FB_RFC_SYNC</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>FUBA für RFC Sync</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_FILNR</PARAMETER>
+       <TYP>AD_ADDRNUM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_FILNAME</PARAMETER>
+       <TYP>AD_NAME1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_PSTCODE</PARAMETER>
+       <TYP>AD_PSTCD1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_CITY</PARAMETER>
+       <TYP>AD_CITY1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_STREET</PARAMETER>
+       <TYP>AD_STREET</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_HSNUM</PARAMETER>
+       <TYP>AD_HSNM1</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_FILNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Datenelement Filialnummer</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_FILNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Datenelement Filialname</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_PSTCODE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Postleitzahl des Orts</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_CITY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Ort</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_STREET</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Straße</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_HSNUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Hausnummer</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Returnparameter</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

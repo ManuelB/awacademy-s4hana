@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service definition für Bestandtabelle'
+define service ZSD_SERVICE_DEFINITION {
+  expose ZC_projection_View;
+  expose ZSD_BESTAND_BEHAVIOR;
+}

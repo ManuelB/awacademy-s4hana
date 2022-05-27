@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZRADIOANTEIL</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Radioaktiver Anteil Gewicht</DDTEXT>
+    <REPTEXT>Radioaktiver Anteil Gewicht</REPTEXT>
+    <SCRTEXT_S>Radio Ant.</SCRTEXT_S>
+    <SCRTEXT_M>Radioaktiver Anteil</SCRTEXT_M>
+    <SCRTEXT_L>Radioaktiver Anteil Gewicht</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <DATATYPE>DEC</DATATYPE>
+    <LENG>000006</LENG>
+    <DECIMALS>000004</DECIMALS>
+    <OUTPUTLEN>000007</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>7</LANGU>
+    <LANGU>8</LANGU>
+    <LANGU>9</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>X</LANGU>
+    <LANGU>Y</LANGU>
+    <LANGU>c</LANGU>
+    <LANGU>d</LANGU>
+    <LANGU>묩</LANGU>
+    <LANGU>뱋</LANGU>
+    <LANGU>쁩</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>统一利率的转让金额</DDTEXT>
+     <REPTEXT>统一利率转让</REPTEXT>
+     <SCRTEXT_S>Flt-rteTrn</SCRTEXT_S>
+     <SCRTEXT_M>统一利率转让</SCRTEXT_M>
+     <SCRTEXT_L>统一利率转让</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>จำนวนโอนอัตราเดียวคงที่</DDTEXT>
+     <REPTEXT>โอนอัตราเดียวคงที่</REPTEXT>
+     <SCRTEXT_S>Flt-rteTrn</SCRTEXT_S>
+     <SCRTEXT_M>Flt-rte trnsfr</SCRTEXT_M>
+     <SCRTEXT_L>โอนอัตราเดียวคงที่</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>정률대체금액</DDTEXT>
+     <REPTEXT>정률대체</REPTEXT>
+     <SCRTEXT_S>정률대체</SCRTEXT_S>
+     <SCRTEXT_M>정률대체</SCRTEXT_M>
+     <SCRTEXT_L>정률대체</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Sumă transfer tarif unic</DDTEXT>
+     <REPTEXT>Transf.tarif unic</REPTEXT>
+     <SCRTEXT_S>TrnsfTarUn</SCRTEXT_S>
+     <SCRTEXT_M>Trnsf.tarif un.</SCRTEXT_M>
+     <SCRTEXT_L>Transf.tarif unic</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Znesek pavšalne preknjižbe</DDTEXT>
+     <REPTEXT>Pavš.preknj.</REPTEXT>
+     <SCRTEXT_S>PavšPrekn.</SCRTEXT_S>
+     <SCRTEXT_M>Pavš.preknj.</SCRTEXT_M>
+     <SCRTEXT_L>Pavšalana preknj.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Paušalni iznos prijenosa</DDTEXT>
+     <REPTEXT>Paušalni prijenos</REPTEXT>
+     <SCRTEXT_S>Pauš.prij.</SCRTEXT_S>
+     <SCRTEXT_M>Paušalni prij.</SCRTEXT_M>
+     <SCRTEXT_L>Paušalni prijenos</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>7</DDLANGUAGE>
+     <DDTEXT>Amaun pindahan kadar rata</DDTEXT>
+     <REPTEXT>Pindahan kadar rta</REPTEXT>
+     <SCRTEXT_S>PindKdrrat</SCRTEXT_S>
+     <SCRTEXT_M>Pindhn kadar rt</SCRTEXT_M>
+     <SCRTEXT_L>Pindahan kadar rata</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>8</DDLANGUAGE>
+     <DDTEXT>Сума паушального перенесення</DDTEXT>
+     <REPTEXT>Паушальне перенес.</REPTEXT>
+     <SCRTEXT_S>Пауш.пер.</SCRTEXT_S>
+     <SCRTEXT_M>Паушальн.перен.</SCRTEXT_M>
+     <SCRTEXT_L>Паушальне перенесен.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DDTEXT>Kindla määraga ülekandesumma</DDTEXT>
+     <REPTEXT>Kindel ülek-summa</REPTEXT>
+     <SCRTEXT_S>KndÜlek</SCRTEXT_S>
+     <SCRTEXT_M>Kind.ülek-summa</SCRTEXT_M>
+     <SCRTEXT_L>Kindel ülek-summa</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>مبلغ تحويل السعر الثابت</DDTEXT>
+     <REPTEXT>تحويل السعر الثابت</REPTEXT>
+     <SCRTEXT_S>تحويل سعر</SCRTEXT_S>
+     <SCRTEXT_M>تحويل سعر ثابت</SCRTEXT_M>
+     <SCRTEXT_L>تحويل السعر الثابت</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>סכום העברת מדדי-דירה</DDTEXT>
+     <REPTEXT>סכום הע. מדד-דירה</REPTEXT>
+     <SCRTEXT_S>מד&quot;ד סכום</SCRTEXT_S>
+     <SCRTEXT_M>סכ. הע. מדד-דיר</SCRTEXT_M>
+     <SCRTEXT_L>סכום הע. מדד-דירה</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Částka pauš.přeúčtování</DDTEXT>
+     <REPTEXT>Část.přeúčt.pauš.</REPTEXT>
+     <SCRTEXT_S>Č.přúč.pau</SCRTEXT_S>
+     <SCRTEXT_M>Část.přeúč.pau.</SCRTEXT_M>
+     <SCRTEXT_L>Část.přeúčt.paušálu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Flat-rate transfer amount</DDTEXT>
+     <REPTEXT>Flat-rate trnsfr</REPTEXT>
+     <SCRTEXT_S>Flt-rteTrn</SCRTEXT_S>
+     <SCRTEXT_M>Flt-rte trnsfr</SCRTEXT_M>
+     <SCRTEXT_L>Flat-rate transfer</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Montant transfert de forfaits</DDTEXT>
+     <REPTEXT>Transfert forf.</REPTEXT>
+     <SCRTEXT_S>TransForf.</SCRTEXT_S>
+     <SCRTEXT_M>Transfert forf.</SCRTEXT_M>
+     <SCRTEXT_L>Transfert forfait</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Ποσό μεταφοράς ενιαίου συντελεστή</DDTEXT>
+     <REPTEXT>Μεταφ.εν.συντελ.</REPTEXT>
+     <SCRTEXT_S>Μετ.εν.συν</SCRTEXT_S>
+     <SCRTEXT_M>Μεταφ.εν.συντ.</SCRTEXT_M>
+     <SCRTEXT_L>Μεταφ.εν.συντελεστή</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Átalány-átkönyvelések összege</DDTEXT>
+     <REPTEXT>Átal.átkönyv.</REPTEXT>
+     <SCRTEXT_S>Átal.átk.</SCRTEXT_S>
+     <SCRTEXT_M>Átal.átkönyv.</SCRTEXT_M>
+     <SCRTEXT_L>Átalány-átkönyvelés</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Imp. giroconto forfettario</DDTEXT>
+     <REPTEXT>Giroconto forfett.</REPTEXT>
+     <SCRTEXT_S>GirocForf</SCRTEXT_S>
+     <SCRTEXT_M>Giroconto forf.</SCRTEXT_M>
+     <SCRTEXT_L>Giroconto forfett.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>均一レート振替額</DDTEXT>
+     <REPTEXT>均一レート振替</REPTEXT>
+     <SCRTEXT_S>Flt-rteTrn</SCRTEXT_S>
+     <SCRTEXT_M>均一レート振替</SCRTEXT_M>
+     <SCRTEXT_L>均一レート振替</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Beløb standardompostering</DDTEXT>
+     <REPTEXT>Standardomposter.</REPTEXT>
+     <SCRTEXT_S>StdOmpost.</SCRTEXT_S>
+     <SCRTEXT_M>Standardompost.</SCRTEXT_M>
+     <SCRTEXT_L>Standardompostering</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Kwota przeksięgowania ryczałtowego</DDTEXT>
+     <REPTEXT>Kw.przeks.rycz.</REPTEXT>
+     <SCRTEXT_S>Przeks.r.</SCRTEXT_S>
+     <SCRTEXT_M>Kw.przeks.rycz.</SCRTEXT_M>
+     <SCRTEXT_L>Kw.przeksięg.rycz.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>單一費率移轉金額</DDTEXT>
+     <REPTEXT>單一費率移轉</REPTEXT>
+     <SCRTEXT_S>單一費率移</SCRTEXT_S>
+     <SCRTEXT_M>單一費率移轉</SCRTEXT_M>
+     <SCRTEXT_L>單一費率移轉</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Bedrg overbk. vast bedrg</DDTEXT>
+     <REPTEXT>Overb.vast.bedrag</REPTEXT>
+     <SCRTEXT_S>Overb.v.bd</SCRTEXT_S>
+     <SCRTEXT_M>Overb.vast.bedr</SCRTEXT_M>
+     <SCRTEXT_L>Overboek.vaste bedr.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Beløp - ompostering med sjablonsats</DDTEXT>
+     <REPTEXT>Ompost. m/sjabSats</REPTEXT>
+     <SCRTEXT_S>Omp.SjSats</SCRTEXT_S>
+     <SCRTEXT_M>Ompost. sj.sats</SCRTEXT_M>
+     <SCRTEXT_L>Ompost. m/sjabl.sats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Montante transferência global</DDTEXT>
+     <REPTEXT>Transfer.global</REPTEXT>
+     <SCRTEXT_S>TrnsfGlob</SCRTEXT_S>
+     <SCRTEXT_M>Transfer.global</SCRTEXT_M>
+     <SCRTEXT_L>Transfer.global</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Čiastka preúčtovania paušálu</DDTEXT>
+     <REPTEXT>Preúčt.paušálu</REPTEXT>
+     <SCRTEXT_S>PreúčtPauš</SCRTEXT_S>
+     <SCRTEXT_M>Preúčt.paušálu</SCRTEXT_M>
+     <SCRTEXT_L>Preúčt.paušálu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Сумма паушального переноса</DDTEXT>
+     <REPTEXT>Паушальн. перенос</REPTEXT>
+     <SCRTEXT_S>ПаушПерен</SCRTEXT_S>
+     <SCRTEXT_M>Пауш. перенос</SCRTEXT_M>
+     <SCRTEXT_L>Паушальн. перенос</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Importe traspaso global</DDTEXT>
+     <REPTEXT>Traspaso global</REPTEXT>
+     <SCRTEXT_S>Tras.glob.</SCRTEXT_S>
+     <SCRTEXT_M>Traspaso global</SCRTEXT_M>
+     <SCRTEXT_L>Traspaso global</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Harcırah transfer kaydı tutarı</DDTEXT>
+     <REPTEXT>Harcırah trnsf.kyt</REPTEXT>
+     <SCRTEXT_S>HrcrhTrnKy</SCRTEXT_S>
+     <SCRTEXT_M>Hrcrh.trnsf.kyt</SCRTEXT_M>
+     <SCRTEXT_L>Harcırah trnsf.kaydı</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Summa kiinteä siirtokirjaus</DDTEXT>
+     <REPTEXT>Kiinteä siirtokirj</REPTEXT>
+     <SCRTEXT_S>KiintSKirj</SCRTEXT_S>
+     <SCRTEXT_M>KiintSiirtokirj</SCRTEXT_M>
+     <SCRTEXT_L>Kiinteä siirtokirj.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Belopp för schablonombokning</DDTEXT>
+     <REPTEXT>Schablonombokn.</REPTEXT>
+     <SCRTEXT_S>SchablOmb</SCRTEXT_S>
+     <SCRTEXT_M>Schablonombokn.</SCRTEXT_M>
+     <SCRTEXT_L>Schablonombokning</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Сума на пренос базисна ставка</DDTEXT>
+     <REPTEXT>Трансфер р. ставка</REPTEXT>
+     <SCRTEXT_S>Транс.р.с.</SCRTEXT_S>
+     <SCRTEXT_M>Трансфер р. ст.</SCRTEXT_M>
+     <SCRTEXT_L>Трансфер р. ставка</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DDTEXT>Vienodos vertės perkėlimo suma</DDTEXT>
+     <REPTEXT>Vien.vertės perk.</REPTEXT>
+     <SCRTEXT_S>VienVertP</SCRTEXT_S>
+     <SCRTEXT_M>VienVert perk.</SCRTEXT_M>
+     <SCRTEXT_L>Vien. vertės perkėl.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DDTEXT>Vienotas likmes pārsūtīšanas summa</DDTEXT>
+     <REPTEXT>Vien. likmes pārs.</REPTEXT>
+     <SCRTEXT_S>V.lik.pār.</SCRTEXT_S>
+     <SCRTEXT_M>Vien.lik.pārs.</SCRTEXT_M>
+     <SCRTEXT_L>Vien. likmes pārsūt.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>c</DDLANGUAGE>
+     <DDTEXT>Import traspàs global</DDTEXT>
+     <REPTEXT>Trasllat q.global</REPTEXT>
+     <SCRTEXT_S>TraslQGlob</SCRTEXT_S>
+     <SCRTEXT_M>Trasllat QGlob</SCRTEXT_M>
+     <SCRTEXT_L>Trasllat q.global</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DDTEXT>Iznos preknjižavanja paušala</DDTEXT>
+     <REPTEXT>Preknjiž.paušala</REPTEXT>
+     <SCRTEXT_S>PreknjPauš</SCRTEXT_S>
+     <SCRTEXT_M>Preknjiž.pauš.</SCRTEXT_M>
+     <SCRTEXT_L>Preknjižav.paušala</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>묩</DDLANGUAGE>
+     <DDTEXT>स्थिर-दर स्थानांतरण राशि</DDTEXT>
+     <REPTEXT>स्थिर-दर स्थानांत.</REPTEXT>
+     <SCRTEXT_S>स्थि.द.</SCRTEXT_S>
+     <SCRTEXT_M>स्थिर-दर स्था.</SCRTEXT_M>
+     <SCRTEXT_L>स्थिर-दर स्थानांतरण</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>뱋</DDLANGUAGE>
+     <DDTEXT>Паушалдық мөлшерлеме: тасымал сомасы</DDTEXT>
+     <REPTEXT>ПаушМөлшТасым.</REPTEXT>
+     <SCRTEXT_S>ПаушМөлТас</SCRTEXT_S>
+     <SCRTEXT_M>ПаушМөлшТасым.</SCRTEXT_M>
+     <SCRTEXT_L>ПаушМөлш: тасымал.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>쁩</DDLANGUAGE>
+     <DDTEXT>Số tiền chuyển thanh toán đồng nhất</DDTEXT>
+     <REPTEXT>Chuyển tt đ.nhất</REPTEXT>
+     <SCRTEXT_S>Ch.tt.đnh</SCRTEXT_S>
+     <SCRTEXT_M>Chuyển tt đ.nh</SCRTEXT_M>
+     <SCRTEXT_L>Chuyển tt đ.nhất</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

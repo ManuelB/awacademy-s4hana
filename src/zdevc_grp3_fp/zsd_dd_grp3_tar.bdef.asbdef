@@ -1,0 +1,13 @@
+managed implementation in class zbp_sd_dd_grp3_tar unique;
+//strict; //Comment this line in to enable strict mode. The strict mode is prerequisite to be future proof regarding syntax and to be able to release your BO.
+
+define behavior for ZSD_DD_GRP3_TAR //alias <alias_name>
+persistent table ZGRP3_TARIFE
+lock master
+
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}

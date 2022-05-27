@@ -1,0 +1,14 @@
+*&---------------------------------------------------------------------*
+*& Include          Z_S07_INCLUDE_DEMO
+*&---------------------------------------------------------------------*
+
+PARAMETERS a1 TYPE CACSMAPFACTOR DEFAULT 5.
+PARAMETERS op1 TYPE /SAPAPO/OPERATOR DEFAULT '+'.
+PARAMETERS b1 TYPE CACSMAPFACTOR DEFAULT 17.
+
+PARAMETERS a2 TYPE CACSMAPFACTOR DEFAULT 5.
+PARAMETERS op2  TYPE /SAPAPO/OPERATOR DEFAULT '*'.
+PARAMETERS b2 TYPE CACSMAPFACTOR DEFAULT 17.
+
+
+DATA res TYPE CACSMAPFACTOR.

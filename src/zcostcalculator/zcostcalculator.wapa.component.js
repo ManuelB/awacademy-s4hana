@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/UIComponent","sap/ui/Device","costcalculator/model/models"],function(e,t,i){"use strict";return e.extend("costcalculator.Component",{metadata:{manifest:"json"},init:function(){e.prototype.init.apply(this,arguments);this.getRou+
+ter().initialize();this.setModel(i.createDeviceModel(),"device")}})});                                                                                                                                                                                         

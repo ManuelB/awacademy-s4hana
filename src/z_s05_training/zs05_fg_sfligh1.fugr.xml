@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Sfli</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZS05_FG_SFLIGH1TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZS05_FG_SFLIGH1</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZS05_SFLIGH1</FUNCNAME>
+     <SHORT_TEXT>FLIGH1</SHORT_TEXT>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

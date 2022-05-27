@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for tariff'
+define service Zisu_sd_tariff {
+  expose ZISU_PJ_TARIFF as zisu_pj_tariff;
+}

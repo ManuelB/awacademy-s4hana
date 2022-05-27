@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZFRISTCANCEL</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>DEC2_2</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>32</SCRLEN3>
+    <DDTEXT>Kündigungsfrist in Monaten</DDTEXT>
+    <REPTEXT>Kündigungsfrist in Monaten</REPTEXT>
+    <SCRTEXT_S>Künd.Frist</SCRTEXT_S>
+    <SCRTEXT_M>Kündi.Frist Monate</SCRTEXT_M>
+    <SCRTEXT_L>Kündigungsfrist in Monaten</SCRTEXT_L>
+    <ACTFLAG>I</ACTFLAG>
+    <DTELMASTER>D</DTELMASTER>
+    <RESERVEDTE>JB</RESERVEDTE>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>7</LANGU>
+    <LANGU>8</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>c</LANGU>
+    <LANGU>d</LANGU>
+    <LANGU>묩</LANGU>
+    <LANGU>뱋</LANGU>
+    <LANGU>쁩</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>持续月份数</DDTEXT>
+     <REPTEXT>月</REPTEXT>
+     <SCRTEXT_S>月</SCRTEXT_S>
+     <SCRTEXT_M>月</SCRTEXT_M>
+     <SCRTEXT_L>月</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>ระยะเวลาเป็นเดือน</DDTEXT>
+     <REPTEXT>เดือน</REPTEXT>
+     <SCRTEXT_S>เดือน</SCRTEXT_S>
+     <SCRTEXT_M>เดือน</SCRTEXT_M>
+     <SCRTEXT_L>เดือน</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>기간 (개월수)</DDTEXT>
+     <REPTEXT>개월</REPTEXT>
+     <SCRTEXT_S>개월</SCRTEXT_S>
+     <SCRTEXT_M>개월</SCRTEXT_M>
+     <SCRTEXT_L>개월</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Durată în luni</DDTEXT>
+     <REPTEXT>Luni</REPTEXT>
+     <SCRTEXT_S>Luni</SCRTEXT_S>
+     <SCRTEXT_M>Luni</SCRTEXT_M>
+     <SCRTEXT_L>Luni</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Trajanje v mesecih</DDTEXT>
+     <REPTEXT>Meseci</REPTEXT>
+     <SCRTEXT_S>Meseci</SCRTEXT_S>
+     <SCRTEXT_M>Meseci</SCRTEXT_M>
+     <SCRTEXT_L>Meseci</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Trajanje u mjesecima</DDTEXT>
+     <REPTEXT>Mjesec</REPTEXT>
+     <SCRTEXT_S>Mjeseci</SCRTEXT_S>
+     <SCRTEXT_M>Mjeseci</SCRTEXT_M>
+     <SCRTEXT_L>Mjeseci</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>7</DDLANGUAGE>
+     <DDTEXT>Tempoh dalam bulan</DDTEXT>
+     <REPTEXT>Bulan</REPTEXT>
+     <SCRTEXT_S>Bulan</SCRTEXT_S>
+     <SCRTEXT_M>Bulan</SCRTEXT_M>
+     <SCRTEXT_L>Bulan</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>8</DDLANGUAGE>
+     <DDTEXT>Тривалість у місяцях</DDTEXT>
+     <REPTEXT>Місяці</REPTEXT>
+     <SCRTEXT_S>Місяці</SCRTEXT_S>
+     <SCRTEXT_M>Місяці</SCRTEXT_M>
+     <SCRTEXT_L>Місяці</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>المدة بالشهور</DDTEXT>
+     <REPTEXT>الشهور</REPTEXT>
+     <SCRTEXT_S>الشهور</SCRTEXT_S>
+     <SCRTEXT_M>الشهور</SCRTEXT_M>
+     <SCRTEXT_L>الشهور</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>משך זמן בחודשים</DDTEXT>
+     <REPTEXT>חודשים</REPTEXT>
+     <SCRTEXT_S>חודשים</SCRTEXT_S>
+     <SCRTEXT_M>חודשים</SCRTEXT_M>
+     <SCRTEXT_L>חודשים</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Doba trvání v měsících</DDTEXT>
+     <REPTEXT>Měsíce</REPTEXT>
+     <SCRTEXT_S>Měsíce</SCRTEXT_S>
+     <SCRTEXT_M>Měsíce</SCRTEXT_M>
+     <SCRTEXT_L>Měsíce</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Duration in months</DDTEXT>
+     <REPTEXT>Months</REPTEXT>
+     <SCRTEXT_S>Months</SCRTEXT_S>
+     <SCRTEXT_M>Months</SCRTEXT_M>
+     <SCRTEXT_L>Months</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Durée en mois</DDTEXT>
+     <REPTEXT>Mois</REPTEXT>
+     <SCRTEXT_S>Mois</SCRTEXT_S>
+     <SCRTEXT_M>Mois</SCRTEXT_M>
+     <SCRTEXT_L>Mois</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Διάρκεια σε μήνες</DDTEXT>
+     <REPTEXT>Μήνες</REPTEXT>
+     <SCRTEXT_S>Μήνες</SCRTEXT_S>
+     <SCRTEXT_M>Μήνες</SCRTEXT_M>
+     <SCRTEXT_L>Μήνες</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Időtartam hónapokban</DDTEXT>
+     <REPTEXT>Hónap</REPTEXT>
+     <SCRTEXT_S>Hónap</SCRTEXT_S>
+     <SCRTEXT_M>Hónap</SCRTEXT_M>
+     <SCRTEXT_L>Hónap</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Durata in mesi</DDTEXT>
+     <REPTEXT>Mesi</REPTEXT>
+     <SCRTEXT_S>Mesi</SCRTEXT_S>
+     <SCRTEXT_M>Mesi</SCRTEXT_M>
+     <SCRTEXT_L>Mesi</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>期間 (月数)</DDTEXT>
+     <REPTEXT>月数</REPTEXT>
+     <SCRTEXT_S>月数</SCRTEXT_S>
+     <SCRTEXT_M>月数</SCRTEXT_M>
+     <SCRTEXT_L>月数</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Varighed i måneder</DDTEXT>
+     <REPTEXT>Mdr.</REPTEXT>
+     <SCRTEXT_S>Måneder</SCRTEXT_S>
+     <SCRTEXT_M>Måneder</SCRTEXT_M>
+     <SCRTEXT_L>Måneder</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Czas trwania w miesiącach</DDTEXT>
+     <REPTEXT>Mies.</REPTEXT>
+     <SCRTEXT_S>Miesiące</SCRTEXT_S>
+     <SCRTEXT_M>Miesiące</SCRTEXT_M>
+     <SCRTEXT_L>Miesiące</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>持續月份</DDTEXT>
+     <REPTEXT>月數</REPTEXT>
+     <SCRTEXT_S>月數</SCRTEXT_S>
+     <SCRTEXT_M>月數</SCRTEXT_M>
+     <SCRTEXT_L>月數</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Duur in maanden</DDTEXT>
+     <REPTEXT>Mnd.</REPTEXT>
+     <SCRTEXT_S>Maanden</SCRTEXT_S>
+     <SCRTEXT_M>Maanden</SCRTEXT_M>
+     <SCRTEXT_L>Maanden</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Varighet i måneder</DDTEXT>
+     <REPTEXT>Md.</REPTEXT>
+     <SCRTEXT_S>Måneder</SCRTEXT_S>
+     <SCRTEXT_M>Måneder</SCRTEXT_M>
+     <SCRTEXT_L>Måneder</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Duração em meses</DDTEXT>
+     <REPTEXT>Meses</REPTEXT>
+     <SCRTEXT_S>Meses</SCRTEXT_S>
+     <SCRTEXT_M>Meses</SCRTEXT_M>
+     <SCRTEXT_L>Meses</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Doba trvania v mesiacoch</DDTEXT>
+     <REPTEXT>Mesiac</REPTEXT>
+     <SCRTEXT_S>Mesiace</SCRTEXT_S>
+     <SCRTEXT_M>Mesiace</SCRTEXT_M>
+     <SCRTEXT_L>Mesiace</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Продолжительность в месяцах</DDTEXT>
+     <REPTEXT>Месяцы</REPTEXT>
+     <SCRTEXT_S>Месяцы</SCRTEXT_S>
+     <SCRTEXT_M>Месяцы</SCRTEXT_M>
+     <SCRTEXT_L>Месяцы</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Duración en meses</DDTEXT>
+     <REPTEXT>Meses</REPTEXT>
+     <SCRTEXT_S>Meses</SCRTEXT_S>
+     <SCRTEXT_M>Meses</SCRTEXT_M>
+     <SCRTEXT_L>Meses</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Ay olarak süre</DDTEXT>
+     <REPTEXT>Ay</REPTEXT>
+     <SCRTEXT_S>Ay</SCRTEXT_S>
+     <SCRTEXT_M>Ay</SCRTEXT_M>
+     <SCRTEXT_L>Ay</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Kesto kuukausina</DDTEXT>
+     <REPTEXT>Kk</REPTEXT>
+     <SCRTEXT_S>Kuukaudet</SCRTEXT_S>
+     <SCRTEXT_M>Kuukaudet</SCRTEXT_M>
+     <SCRTEXT_L>Kuukaudet</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Tid i månader</DDTEXT>
+     <REPTEXT>Mån.</REPTEXT>
+     <SCRTEXT_S>Månader</SCRTEXT_S>
+     <SCRTEXT_M>Månader</SCRTEXT_M>
+     <SCRTEXT_L>Månader</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Продължителност в месеци</DDTEXT>
+     <REPTEXT>Месеци</REPTEXT>
+     <SCRTEXT_S>Месеци</SCRTEXT_S>
+     <SCRTEXT_M>Месеци</SCRTEXT_M>
+     <SCRTEXT_L>Месеци</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>c</DDLANGUAGE>
+     <DDTEXT>Durada en mesos</DDTEXT>
+     <REPTEXT>Mesos</REPTEXT>
+     <SCRTEXT_S>Mesos</SCRTEXT_S>
+     <SCRTEXT_M>Mesos</SCRTEXT_M>
+     <SCRTEXT_L>Mesos</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DDTEXT>Trajanje u mesecima</DDTEXT>
+     <REPTEXT>Meseci</REPTEXT>
+     <SCRTEXT_S>Meseci</SCRTEXT_S>
+     <SCRTEXT_M>Meseci</SCRTEXT_M>
+     <SCRTEXT_L>Meseci</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>묩</DDLANGUAGE>
+     <DDTEXT>अवधि महीनों में</DDTEXT>
+     <REPTEXT>महीने</REPTEXT>
+     <SCRTEXT_S>महीने</SCRTEXT_S>
+     <SCRTEXT_M>महीने</SCRTEXT_M>
+     <SCRTEXT_L>महीने</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>뱋</DDLANGUAGE>
+     <DDTEXT>Мерзім (ай)</DDTEXT>
+     <REPTEXT>Айлар</REPTEXT>
+     <SCRTEXT_S>Айлар</SCRTEXT_S>
+     <SCRTEXT_M>Айлар</SCRTEXT_M>
+     <SCRTEXT_L>Айлар</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>쁩</DDLANGUAGE>
+     <DDTEXT>Khoảng thời gian theo tháng</DDTEXT>
+     <REPTEXT>Tháng</REPTEXT>
+     <SCRTEXT_S>Tháng</SCRTEXT_S>
+     <SCRTEXT_M>Tháng</SCRTEXT_M>
+     <SCRTEXT_L>Tháng</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

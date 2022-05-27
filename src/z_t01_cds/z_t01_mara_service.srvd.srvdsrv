@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service for MARA entity'
+define service Z_T01_MARA_SERVICE {
+  expose Z_MARA as Material;
+}

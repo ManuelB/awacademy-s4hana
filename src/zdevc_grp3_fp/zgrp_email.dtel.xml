@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZGRP_EMAIL</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>ZGRP3_D_EMAIL</DOMNAME>
+    <HEADLEN>13</HEADLEN>
+    <SCRLEN1>05</SCRLEN1>
+    <SCRLEN2>13</SCRLEN2>
+    <SCRLEN3>13</SCRLEN3>
+    <DDTEXT>Email Adresse</DDTEXT>
+    <REPTEXT>Email Adresse</REPTEXT>
+    <SCRTEXT_S>Email</SCRTEXT_S>
+    <SCRTEXT_M>Email Adresse</SCRTEXT_M>
+    <SCRTEXT_L>Email Adresse</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,4 @@
+@EndUserText.label: 'ZSD_T01_SWEETS'
+define service ZSD_T01_SWEETS {
+  expose ZGRP03_T01_SWEETS_P as Sweets_P;
+}

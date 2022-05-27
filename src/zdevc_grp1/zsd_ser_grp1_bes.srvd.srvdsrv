@@ -1,0 +1,4 @@
+@EndUserText.label: 'ZSD_SER_GRP1_BES'
+define service ZSD_SER_GRP1_BES {
+  expose ZSD_DD_GRP1_BES;
+}

@@ -1,0 +1,12 @@
+projection;
+//strict; //Comment this line in to enable strict mode. The strict mode is prerequisite to be future proof regarding syntax and to be able to release your BO.
+
+define behavior for ZGRp3_SWEETS_DEF_PR //alias <alias_name>
+use etag
+{
+  use create;
+  use update;
+  use delete;
+
+  use action auslisten;
+}

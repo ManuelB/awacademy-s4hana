@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>Z_S11_RECHNER_FORM_FUGR2_DL</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Operator  Operanden</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>Ergebnis</ENTRY>
+       <LENGTH>8</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Null-Division</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Operator wird nicht berücksichtigt</ENTRY>
+       <LENGTH>68</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>RECHNER_FORM</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>A1</KEY>
+       <ENTRY>1. Berechnng - 1.Zahl</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>A2</KEY>
+       <ENTRY>2. Berechnng - 1.Zahl</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>B1</KEY>
+       <ENTRY>1. Berechnng - 2.Zahl</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>B2</KEY>
+       <ENTRY>2. Berechnng - 2.Zahl</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>OP1</KEY>
+       <ENTRY>1. Berechnng - Operator</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>OP2</KEY>
+       <ENTRY>2. Berechnng - Operator</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>RECHNER : mit FUBA</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

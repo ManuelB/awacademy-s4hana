@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUSH" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <HEAD>
+    <NAME>D90F777F1935FC2A1205D2B87C7616</NAME>
+    <TYPE>HT</TYPE>
+    <DISPLAY_NAME>R3TR IWSV ZSB_GRP3_TARIF                     0001</DISPLAY_NAME>
+    <MODIFIER>AW-S07</MODIFIER>
+    <MODDATE>2022-05-22</MODDATE>
+    <MODTIME>12:37:02</MODTIME>
+    <SRCSYSTEM>S4H</SRCSYSTEM>
+    <AUTHOR>AW-S07</AUTHOR>
+    <DEVCLASS>ZDEVC_GRP3_FP</DEVCLASS>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+   </HEAD>
+   <USOBX>
+    <USOBX>
+     <NAME>D90F777F1935FC2A1205D2B87C7616</NAME>
+     <TYPE>HT</TYPE>
+     <OBJECT>S_SERVICE</OBJECT>
+     <MODIFIER>AW-S07</MODIFIER>
+     <MODDATE>2022-05-22</MODDATE>
+     <MODTIME>12:37:02</MODTIME>
+     <OKFLAG>X</OKFLAG>
+    </USOBX>
+   </USOBX>
+   <USOBX_EXT>
+    <item>
+     <OBJECT>S_SERVICE</OBJECT>
+     <TTEXT>Prüfung beim Start von ext. Services</TTEXT>
+     <OCLSS>AAAB</OCLSS>
+     <MODIFIER>AW-S07</MODIFIER>
+     <MODDATE>2022-05-22</MODDATE>
+     <MODTIME>12:37:02</MODTIME>
+     <OKFLAG>X</OKFLAG>
+     <DEVCLASS>S_PROFGEN</DEVCLASS>
+     <PS_POSID>BC-SEC-AUT-PFC</PS_POSID>
+     <CI_TEXT>prüfen</CI_TEXT>
+     <CH_TEXT>prüfen</CH_TEXT>
+     <PR_TEXT>Nein</PR_TEXT>
+     <EXCEP>3</EXCEP>
+     <EXCEP_TX>Okay</EXCEP_TX>
+     <EXCEP_ICON>@08@</EXCEP_ICON>
+    </item>
+   </USOBX_EXT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

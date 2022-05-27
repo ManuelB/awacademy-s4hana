@@ -1,0 +1,4 @@
+INTERFACE z_s03_fahrzeug
+  PUBLIC .
+
+ENDINTERFACE.

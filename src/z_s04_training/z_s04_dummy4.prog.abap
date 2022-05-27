@@ -1,0 +1,3 @@
+REPORT z_s04_dummy4.
+
+MESSAGE 'Test' TYPE 'I' DISPLAY LIKE 'E'.

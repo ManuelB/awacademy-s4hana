@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZS06_AIRP_TO</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>ZS06_D_AIRP</DOMNAME>
+    <HEADLEN>13</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>13</SCRLEN2>
+    <SCRLEN3>13</SCRLEN3>
+    <DDTEXT>Zielflughafen</DDTEXT>
+    <REPTEXT>Zielflughafen</REPTEXT>
+    <SCRTEXT_S>Zielflhaf.</SCRTEXT_S>
+    <SCRTEXT_M>Zielflughafen</SCRTEXT_M>
+    <SCRTEXT_L>Zielflughafen</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <SHLPNAME>ZS06_H_AIRPORT</SHLPNAME>
+    <SHLPFIELD>ID</SHLPFIELD>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

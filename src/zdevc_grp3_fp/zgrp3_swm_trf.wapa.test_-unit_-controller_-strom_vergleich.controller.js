@@ -1,0 +1,1 @@
+sap.ui.define(["zgrp3_swm_trf/controller/strom_vergleich.controller"],function(t){"use strict";QUnit.module("strom_vergleich Controller");QUnit.test("I should test the strom_vergleich controller",function(e){var r=new t;r.onInit();e.ok(r)})});            

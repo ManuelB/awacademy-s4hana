@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>Z_S07_D_RECHNER</DOMNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000001</LENG>
+    <OUTPUTLEN>000001</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Rechner Domene</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>Z_S07_D_RECHNER</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>+</DOMVALUE_L>
+     <DDTEXT>Plus</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>Z_S07_D_RECHNER</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>-</DOMVALUE_L>
+     <DDTEXT>Minus</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>Z_S07_D_RECHNER</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>*</DOMVALUE_L>
+     <DDTEXT>Mal</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>Z_S07_D_RECHNER</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>/</DOMVALUE_L>
+     <DDTEXT>Geteilt</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>Z_S07_D_RECHNER</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>P</DOMVALUE_L>
+     <DDTEXT>Porozent</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>Z_S07_D_RECHNER</DOMNAME>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>R</DOMVALUE_L>
+     <DDTEXT>Quadratwurzel</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

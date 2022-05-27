@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>BAPI Gruppe</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZAWS09_BAPITOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZAWS09_BAPI</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZBAPI_GRP3</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>BAPI Gruppe</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>MATERIAL</PARAMETER>
+       <TYP>ZGRP3_BAPI_INPUT</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>MAT_DETAILS</PARAMETER>
+       <TYP>ZGRP3_BAPI_OUTPUT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>RETURN</PARAMETER>
+       <TYP>BAPIRET2</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>MATERIAL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>INPUT MATERIAL</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MAT_DETAILS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Export parameterof bapi</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Returnparameter</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZBAPI_GRP3_DATA</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>BAPI Gruppe</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>MATERIAL</PARAMETER>
+       <TYP>ZGRP3_BAPI_INPUT</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>MAT_DETAILS</PARAMETER>
+       <TYP>ZGRP3_BAPI_OUTPUT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>RETURN</PARAMETER>
+       <TYP>BAPIRET2</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>MATERIAL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>INPUT MATERIAL</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MAT_DETAILS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Export parameterof bapi</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Returnparameter</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZGRP3_BAPI_DATA</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>BAPI Gruppe</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>MATERIAL</PARAMETER>
+       <TYP>ZGRP3_BAPI_INPUT</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>MAT_DETAILS</PARAMETER>
+       <TYP>ZGRP3_BAPI_OUTPUT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>RETURN</PARAMETER>
+       <TYP>BAPIRET2</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>MATERIAL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>INPUT MATERIAL</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MAT_DETAILS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Export parameterof bapi</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Returnparameter</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

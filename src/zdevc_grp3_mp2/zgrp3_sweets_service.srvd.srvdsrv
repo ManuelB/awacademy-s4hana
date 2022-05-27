@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition'
+define service ZGRP3_SWEETS_SERVICE {
+  expose zgrp3_sweets_DEF;
+}

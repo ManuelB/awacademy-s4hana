@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>ASS1 A1</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ_S02_FG_ASS1TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ_S02_FG_ASS1</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_S02_FB_ASS1</FUNCNAME>
+     <SHORT_TEXT>FuBa ASS1 A1</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>BWERT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZS02C_TY_BETRAG</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>WTYP</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZS02C_TY_MWST</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>NWERT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZS02C_TY_BETRAG</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>TWERT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZS02C_TY_BETRAG</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>BWERT</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WTYP</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NWERT</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TWERT</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(r){"use strict";return r.extend("zgrp3trfswm.controller.controller.App",{onInit(){}})});                                                                                                                 

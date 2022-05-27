@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>Z_GRP2_WECHSEL</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Wechselklassse GR2</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <MSG_ID>ZMSG_FP_GRP2</MSG_ID>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>Z_GRP2_WECHSEL</CLSNAME>
+     <CMPNAME>DOUBLE_CLICK</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Event für double click auf alv grid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>Z_GRP2_WECHSEL</CLSNAME>
+     <CMPNAME>EDINACHRICHT_SCHICKEN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>UTILMD Nachricht für Lieferantenwechsel schicken</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>Z_GRP2_WECHSEL</CLSNAME>
+     <CMPNAME>IM_ALTANBIETER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Stromanbieter</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>Z_GRP2_WECHSEL</CLSNAME>
+     <CMPNAME>IM_KUNNR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kundenstammtabelle für Abschlussprojekt Gruppe 2</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>Z_GRP2_WECHSEL</CLSNAME>
+     <CMPNAME>LS_TARIF</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Stromanbieter Tarife</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>Z_GRP2_WECHSEL</CLSNAME>
+     <CMPNAME>NEU_KUNDE_TARIF_WAEHLEN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Method für ein interessant ein Tarif zu wählen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>Z_GRP2_WECHSEL</CLSNAME>
+     <CMPNAME>STATUS_AENDERN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Methode für Sachbearbeiter (Wechselstatus ändern)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>Z_GRP2_WECHSEL</CLSNAME>
+     <CMPNAME>STATUS_SEHEN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Methode für Status Anzeigen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>Z_GRP2_WECHSEL</CLSNAME>
+     <CMPNAME>TARIF_WECHSELN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Neuen Tarif wählen und Stromanbieter wechseln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>Z_GRP2_WECHSEL</CLSNAME>
+     <CMPNAME>WECHSEL_ERLEDIGT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Event für EDI Nachricht senden</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

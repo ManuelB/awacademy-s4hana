@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZSD_GRP1_AKBEST</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>MENGV13</DOMNAME>
+    <HEADLEN>18</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Aktueller Bestand</DDTEXT>
+    <REPTEXT>Aktueller Bestand</REPTEXT>
+    <SCRTEXT_S>Aktueller</SCRTEXT_S>
+    <SCRTEXT_M>Aktueller Bestand</SCRTEXT_M>
+    <SCRTEXT_L>Aktueller Bestand</SCRTEXT_L>
+    <APPLCLASS>MD</APPLCLASS>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>REQ_QTY</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>7</LANGU>
+    <LANGU>8</LANGU>
+    <LANGU>9</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>X</LANGU>
+    <LANGU>Y</LANGU>
+    <LANGU>c</LANGU>
+    <LANGU>d</LANGU>
+    <LANGU>묩</LANGU>
+    <LANGU>뱋</LANGU>
+    <LANGU>쁩</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>有效性检查的需求数量</DDTEXT>
+     <REPTEXT>需求数量</REPTEXT>
+     <SCRTEXT_S>需求数量</SCRTEXT_S>
+     <SCRTEXT_M>需求数量</SCRTEXT_M>
+     <SCRTEXT_L>需求量</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>ปริมาณความต้องการในการตรวจสอบความเพียงพอของวัสดุ</DDTEXT>
+     <REPTEXT>ปริมาณความต้องการ</REPTEXT>
+     <SCRTEXT_S>Reqmt qty</SCRTEXT_S>
+     <SCRTEXT_M>ปริมาณค.ต้องการ</SCRTEXT_M>
+     <SCRTEXT_L>ปริมาณความต้องการ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>가용성 점검에 대한 소요 수량</DDTEXT>
+     <REPTEXT>소요 수량</REPTEXT>
+     <SCRTEXT_S>소요 수량</SCRTEXT_S>
+     <SCRTEXT_M>소요 수량</SCRTEXT_M>
+     <SCRTEXT_L>소요량</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Cantitate necesar pt.verificare disponibilitate</DDTEXT>
+     <REPTEXT>Cantitate necesar</REPTEXT>
+     <SCRTEXT_S>Cant.nec.</SCRTEXT_S>
+     <SCRTEXT_M>Cant.necesară</SCRTEXT_M>
+     <SCRTEXT_L>Cantitate necesară</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Količina potrebe za kontrolo razpoložljivosti</DDTEXT>
+     <REPTEXT>Količina potrebe</REPTEXT>
+     <SCRTEXT_S>Klč potr.</SCRTEXT_S>
+     <SCRTEXT_M>Količina potreb</SCRTEXT_M>
+     <SCRTEXT_L>Količina potreb</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Količina zahtjeva za provjeru raspoloživosti</DDTEXT>
+     <REPTEXT>Količina zahtjeva</REPTEXT>
+     <SCRTEXT_S>Kol.potr.</SCRTEXT_S>
+     <SCRTEXT_M>Količ.potreba</SCRTEXT_M>
+     <SCRTEXT_L>Količina potreba</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>7</DDLANGUAGE>
+     <DDTEXT>Kuantiti keperluan untuk semakan ketersediaan</DDTEXT>
+     <REPTEXT>Kuantiti keperluan</REPTEXT>
+     <SCRTEXT_S>Ktt kprln</SCRTEXT_S>
+     <SCRTEXT_M>Kntt keperluan</SCRTEXT_M>
+     <SCRTEXT_L>Kuantiti Keperluan</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>8</DDLANGUAGE>
+     <DDTEXT>Кількість потреби для перевірки доступності</DDTEXT>
+     <REPTEXT>Кількість потреби</REPTEXT>
+     <SCRTEXT_S>Кіл.потр.</SCRTEXT_S>
+     <SCRTEXT_M>Кількіс.потреби</SCRTEXT_M>
+     <SCRTEXT_L>Кількість потреби</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DDTEXT>Saadavuskontrolli jaoks vajalik kogus</DDTEXT>
+     <REPTEXT>Vajalik kogus</REPTEXT>
+     <SCRTEXT_S>Vaj. kogus</SCRTEXT_S>
+     <SCRTEXT_M>Vajalik kogus</SCRTEXT_M>
+     <SCRTEXT_L>Vajalik kogus</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>كمية المتطلب لفحص التوفر</DDTEXT>
+     <REPTEXT>كمية المتطلب</REPTEXT>
+     <SCRTEXT_S>كمية متطلب</SCRTEXT_S>
+     <SCRTEXT_M>كمية المتطلب</SCRTEXT_M>
+     <SCRTEXT_L>الكمية المطلوبة</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>כמות דרישה לבדיקת זמינות</DDTEXT>
+     <REPTEXT>כמות דרישה</REPTEXT>
+     <SCRTEXT_S>כמות דרישה</SCRTEXT_S>
+     <SCRTEXT_M>כמות נדרשת</SCRTEXT_M>
+     <SCRTEXT_L>כמות דרישה</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Potř.množství pro kontrolu disponibility</DDTEXT>
+     <REPTEXT>Potř.množ.</REPTEXT>
+     <SCRTEXT_S>Potř.množ.</SCRTEXT_S>
+     <SCRTEXT_M>Potř.množství</SCRTEXT_M>
+     <SCRTEXT_L>Potř.množství</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Requirement quantity for availability check</DDTEXT>
+     <REPTEXT>Reqmt quantity</REPTEXT>
+     <SCRTEXT_S>Reqmt qty</SCRTEXT_S>
+     <SCRTEXT_M>Requirement qty</SCRTEXT_M>
+     <SCRTEXT_L>Requirement Quantity</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Quantité requise pour le contrôle des disponibilités</DDTEXT>
+     <REPTEXT>Quantité requise</REPTEXT>
+     <SCRTEXT_S>Qté requ.</SCRTEXT_S>
+     <SCRTEXT_M>Qté requise</SCRTEXT_M>
+     <SCRTEXT_L>Quantité requise</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Απαιτούμενη ποσότητα για έλεγχο διαθεσιμότητας</DDTEXT>
+     <REPTEXT>ΑπαιτούμενΠοσότητα</REPTEXT>
+     <SCRTEXT_S>Ποσ.απαίτ</SCRTEXT_S>
+     <SCRTEXT_M>Ποσότ.απαίτησης</SCRTEXT_M>
+     <SCRTEXT_L>Ποσότητα Απαίτησης</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Szükségletmennyiség rendelkezésre állás ellenőrzéséhez</DDTEXT>
+     <REPTEXT>Szükségletmenny.</REPTEXT>
+     <SCRTEXT_S>SzüksMenny</SCRTEXT_S>
+     <SCRTEXT_M>Szüks.menny.</SCRTEXT_M>
+     <SCRTEXT_L>Szükségletmennyiség</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Qtà fabbisogno per il controllo disponibilità</DDTEXT>
+     <REPTEXT>Qtà fabbisogno</REPTEXT>
+     <SCRTEXT_S>Qtà fabb.</SCRTEXT_S>
+     <SCRTEXT_M>Qtà fabb.</SCRTEXT_M>
+     <SCRTEXT_L>Quantità fabbisogno</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>利用可能在庫確認の所要量</DDTEXT>
+     <REPTEXT>所要量</REPTEXT>
+     <SCRTEXT_S>所要量</SCRTEXT_S>
+     <SCRTEXT_M>所要量</SCRTEXT_M>
+     <SCRTEXT_L>所要量</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Behovsmængde for disponibilitetskontrol</DDTEXT>
+     <REPTEXT>Behovsmængde</REPTEXT>
+     <SCRTEXT_S>Behovsmgd.</SCRTEXT_S>
+     <SCRTEXT_M>Behovsmængde</SCRTEXT_M>
+     <SCRTEXT_L>Behovsmængde</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Ilość zapotrzebowania dla kontroli dostępności</DDTEXT>
+     <REPTEXT>Ilość zapotrzeb.</REPTEXT>
+     <SCRTEXT_S>Il. zapot.</SCRTEXT_S>
+     <SCRTEXT_M>Ilość zapotrz.</SCRTEXT_M>
+     <SCRTEXT_L>Ilość zapotrzebow.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>可用量核查的需求數量</DDTEXT>
+     <REPTEXT>需求數量</REPTEXT>
+     <SCRTEXT_S>需求數量</SCRTEXT_S>
+     <SCRTEXT_M>需求數量</SCRTEXT_M>
+     <SCRTEXT_L>需求數量</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Behoeftehoeveelheid voor beschikbaarheidscontrole</DDTEXT>
+     <REPTEXT>Beh.hvh.</REPTEXT>
+     <SCRTEXT_S>Beh.hvh.</SCRTEXT_S>
+     <SCRTEXT_M>Behoeftehoevh.</SCRTEXT_M>
+     <SCRTEXT_L>Behoeftehoeveelheid</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Behovskvantum for tilgjengelighetskontroll</DDTEXT>
+     <REPTEXT>Behovskvantum</REPTEXT>
+     <SCRTEXT_S>Behovskvt.</SCRTEXT_S>
+     <SCRTEXT_M>Behovskvantum</SCRTEXT_M>
+     <SCRTEXT_L>Behovskvantum</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Quantidade necessária p/verificação de disponibilidades</DDTEXT>
+     <REPTEXT>Qtd.necessária</REPTEXT>
+     <SCRTEXT_S>Qtd.necess</SCRTEXT_S>
+     <SCRTEXT_M>Qtd.necessária</SCRTEXT_M>
+     <SCRTEXT_L>Qtd.necessária</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Potrebné množstvo pre kontrolu disponibility</DDTEXT>
+     <REPTEXT>Potrebné množstvo</REPTEXT>
+     <SCRTEXT_S>Potr.množ.</SCRTEXT_S>
+     <SCRTEXT_M>Potreb.množstvo</SCRTEXT_M>
+     <SCRTEXT_L>Potreb.množstvo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Объем спроса при проверке доступности запасов</DDTEXT>
+     <REPTEXT>ОбъемПотребности</REPTEXT>
+     <SCRTEXT_S>ОбъемПотр</SCRTEXT_S>
+     <SCRTEXT_M>ОбъемПотребн</SCRTEXT_M>
+     <SCRTEXT_L>Объем потребности</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Cantidad necesaria para comprobación de disponibilidad</DDTEXT>
+     <REPTEXT>Cantidad necesaria</REPTEXT>
+     <SCRTEXT_S>Ctd.neces.</SCRTEXT_S>
+     <SCRTEXT_M>Ctd.necesaria</SCRTEXT_M>
+     <SCRTEXT_L>Cantidad necesaria</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Kullanılabilirlik kontrolüne ilişkin ihtiyaç miktarı</DDTEXT>
+     <REPTEXT>İhtiyaç miktarı</REPTEXT>
+     <SCRTEXT_S>İhty.mkt.</SCRTEXT_S>
+     <SCRTEXT_M>İhtiyaç miktarı</SCRTEXT_M>
+     <SCRTEXT_L>İhtiyaç miktarı</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Tarvemäärät saatavuustarkistusta varten</DDTEXT>
+     <REPTEXT>Tarvemäärä</REPTEXT>
+     <SCRTEXT_S>Tarvemäärä</SCRTEXT_S>
+     <SCRTEXT_M>Tarvemäärä</SCRTEXT_M>
+     <SCRTEXT_L>Tarvemäärä</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Behovskvantitet för tillgänglighetskontroll</DDTEXT>
+     <REPTEXT>Behovskv.</REPTEXT>
+     <SCRTEXT_S>Behovskv.</SCRTEXT_S>
+     <SCRTEXT_M>Behovskvantitet</SCRTEXT_M>
+     <SCRTEXT_L>Behovskvant.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Количество на изискване за проверка на достъпност</DDTEXT>
+     <REPTEXT>Количество изискв.</REPTEXT>
+     <SCRTEXT_S>КоличИзиск</SCRTEXT_S>
+     <SCRTEXT_M>НеобхКоличество</SCRTEXT_M>
+     <SCRTEXT_L>Количество изискван.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DDTEXT>Prieinamumo patikros poreikio kiekis</DDTEXT>
+     <REPTEXT>Poreikio kiekis</REPTEXT>
+     <SCRTEXT_S>Por. kiek.</SCRTEXT_S>
+     <SCRTEXT_M>Poreikio kiekis</SCRTEXT_M>
+     <SCRTEXT_L>Poreikio kiekis</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DDTEXT>Vajadzīgais daudzums pieejamības pārbaudei</DDTEXT>
+     <REPTEXT>Vajadz. daudzums</REPTEXT>
+     <SCRTEXT_S>Vajadz.d.</SCRTEXT_S>
+     <SCRTEXT_M>Vajadz. daudz.</SCRTEXT_M>
+     <SCRTEXT_L>Vajadzīgais daudzums</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>c</DDLANGUAGE>
+     <DDTEXT>Quantitat necessària p.comprovació disponibilitat</DDTEXT>
+     <REPTEXT>Quantitat necess.</REPTEXT>
+     <SCRTEXT_S>Qtt.nec.</SCRTEXT_S>
+     <SCRTEXT_M>Qtt.nec.</SCRTEXT_M>
+     <SCRTEXT_L>Qtt.nec.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DDTEXT>Količina potreba za proveru raspoloživosti</DDTEXT>
+     <REPTEXT>Količina potreba</REPTEXT>
+     <SCRTEXT_S>KolPotreba</SCRTEXT_S>
+     <SCRTEXT_M>Kol.potreba</SCRTEXT_M>
+     <SCRTEXT_L>Količina potreba</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>묩</DDLANGUAGE>
+     <DDTEXT>उपलब्धता जांच हेतु आवश्यकता मात्रा</DDTEXT>
+     <REPTEXT>आवश्यकता मात्रा</REPTEXT>
+     <SCRTEXT_S>आ.मात्रा</SCRTEXT_S>
+     <SCRTEXT_M>आवश्यकता मात्रा</SCRTEXT_M>
+     <SCRTEXT_L>आवश्यकता मात्रा</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>뱋</DDLANGUAGE>
+     <DDTEXT>Қолжетімділікті тексеруге арналған қажеттілік мөлшері</DDTEXT>
+     <REPTEXT>Қажетт.млш.</REPTEXT>
+     <SCRTEXT_S>Қажетт.млш</SCRTEXT_S>
+     <SCRTEXT_M>Қажеттілік мөлш</SCRTEXT_M>
+     <SCRTEXT_L>Қажеттілік мөлшері</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>쁩</DDLANGUAGE>
+     <DDTEXT>Số lượng yêu cầu cho kiểm tra sự sẵn có</DDTEXT>
+     <REPTEXT>Số lượng y.cầu</REPTEXT>
+     <SCRTEXT_S>S.lg y.c</SCRTEXT_S>
+     <SCRTEXT_M>Số lg yêu cầu</SCRTEXT_M>
+     <SCRTEXT_L>Số lượng yêu cầu</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

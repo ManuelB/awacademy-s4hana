@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZSD_GRP1_MDBES</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>MENGE</DOMNAME>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>14</SCRLEN2>
+    <SCRLEN3>14</SCRLEN3>
+    <DDTEXT>Mindestbestand</DDTEXT>
+    <SCRTEXT_S>Mind. Bst.</SCRTEXT_S>
+    <SCRTEXT_M>Mindestbestand</SCRTEXT_M>
+    <SCRTEXT_L>Mindestbestand</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DEFFDNAME>MIN_STOCK</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>7</LANGU>
+    <LANGU>8</LANGU>
+    <LANGU>9</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>X</LANGU>
+    <LANGU>Y</LANGU>
+    <LANGU>c</LANGU>
+    <LANGU>d</LANGU>
+    <LANGU>묩</LANGU>
+    <LANGU>뱋</LANGU>
+    <LANGU>쁩</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>最小库存</DDTEXT>
+     <SCRTEXT_S>最小库存</SCRTEXT_S>
+     <SCRTEXT_M>最小库存</SCRTEXT_M>
+     <SCRTEXT_L>最小库存</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>สต็อคต่ำสุด</DDTEXT>
+     <SCRTEXT_S>Min. stock</SCRTEXT_S>
+     <SCRTEXT_M>สต็อคต่ำสุด</SCRTEXT_M>
+     <SCRTEXT_L>สต็อคต่ำสุด</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>최소재고</DDTEXT>
+     <SCRTEXT_S>최소재고</SCRTEXT_S>
+     <SCRTEXT_M>최소재고</SCRTEXT_M>
+     <SCRTEXT_L>최소재고</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Stoc minim</DDTEXT>
+     <SCRTEXT_S>Stoc minim</SCRTEXT_S>
+     <SCRTEXT_M>Stoc minim</SCRTEXT_M>
+     <SCRTEXT_L>Stoc minim</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Minimalna zaloga</DDTEXT>
+     <SCRTEXT_S>Min.zaloga</SCRTEXT_S>
+     <SCRTEXT_M>Minimal.zaloga</SCRTEXT_M>
+     <SCRTEXT_L>Minimal.zaloga</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Minimalna zal.</DDTEXT>
+     <SCRTEXT_S>Min.zaliha</SCRTEXT_S>
+     <SCRTEXT_M>Minimalna zal.</SCRTEXT_M>
+     <SCRTEXT_L>Minimalna zal.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>7</DDLANGUAGE>
+     <DDTEXT>Stok minimum</DDTEXT>
+     <SCRTEXT_S>Stok min.</SCRTEXT_S>
+     <SCRTEXT_M>Stok minimum</SCRTEXT_M>
+     <SCRTEXT_L>Stok minimum</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>8</DDLANGUAGE>
+     <DDTEXT>Мінімальний запас</DDTEXT>
+     <SCRTEXT_S>Мін.запас</SCRTEXT_S>
+     <SCRTEXT_M>Мін.запас</SCRTEXT_M>
+     <SCRTEXT_L>Мін.запас</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DDTEXT>Väikseim varude tase</DDTEXT>
+     <SCRTEXT_S>Väiks. VT</SCRTEXT_S>
+     <SCRTEXT_M>Väikseim VT</SCRTEXT_M>
+     <SCRTEXT_L>Väikseim VT</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>أدنى مخزون</DDTEXT>
+     <SCRTEXT_S>أدنى مخزون</SCRTEXT_S>
+     <SCRTEXT_M>أدنى مخزون</SCRTEXT_M>
+     <SCRTEXT_L>أدنى مخزون</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>מלאי מינימלי</DDTEXT>
+     <SCRTEXT_S>מלאי מינימ</SCRTEXT_S>
+     <SCRTEXT_M>מלאי מינימלי</SCRTEXT_M>
+     <SCRTEXT_L>מלאי מינימלי</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Minimální zásoba</DDTEXT>
+     <SCRTEXT_S>Min.zásoba</SCRTEXT_S>
+     <SCRTEXT_M>Minimál.zásoba</SCRTEXT_M>
+     <SCRTEXT_L>Minimál.zásoba</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Minimum stock</DDTEXT>
+     <SCRTEXT_S>Min. stock</SCRTEXT_S>
+     <SCRTEXT_M>Minimum stock</SCRTEXT_M>
+     <SCRTEXT_L>Minimum stock</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Stock minimum</DDTEXT>
+     <SCRTEXT_S>Stk mini</SCRTEXT_S>
+     <SCRTEXT_M>Stock minimum</SCRTEXT_M>
+     <SCRTEXT_L>Stock minimum</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Ελάχιστο απόθεμα</DDTEXT>
+     <SCRTEXT_S>Ελάχ.απόθ.</SCRTEXT_S>
+     <SCRTEXT_M>Ελάχ.απόθεμα</SCRTEXT_M>
+     <SCRTEXT_L>Ελάχ.απόθεμα</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Minimális készlet</DDTEXT>
+     <SCRTEXT_S>Min.készl.</SCRTEXT_S>
+     <SCRTEXT_M>Minim.készlet</SCRTEXT_M>
+     <SCRTEXT_L>Minim.készlet</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Stock minimo</DDTEXT>
+     <SCRTEXT_S>Stock min.</SCRTEXT_S>
+     <SCRTEXT_M>Stock minimo</SCRTEXT_M>
+     <SCRTEXT_L>Stock minimo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>最小在庫</DDTEXT>
+     <SCRTEXT_S>最小在庫</SCRTEXT_S>
+     <SCRTEXT_M>最小在庫</SCRTEXT_M>
+     <SCRTEXT_L>最小在庫</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Minimumbeholdning</DDTEXT>
+     <SCRTEXT_S>MinBehold.</SCRTEXT_S>
+     <SCRTEXT_M>Min.beholdning</SCRTEXT_M>
+     <SCRTEXT_L>Min.beholdning</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Minimalny zapas</DDTEXT>
+     <SCRTEXT_S>Min. zapas</SCRTEXT_S>
+     <SCRTEXT_M>Min. zapas</SCRTEXT_M>
+     <SCRTEXT_L>Min. zapas</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>最小庫存</DDTEXT>
+     <SCRTEXT_S>最小庫存</SCRTEXT_S>
+     <SCRTEXT_M>最小庫存</SCRTEXT_M>
+     <SCRTEXT_L>最小庫存</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Minimumvoorraad</DDTEXT>
+     <SCRTEXT_S>Min.voorr.</SCRTEXT_S>
+     <SCRTEXT_M>Min.voorraad</SCRTEXT_M>
+     <SCRTEXT_L>Min.voorraad</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Minimumsbeholdning</DDTEXT>
+     <SCRTEXT_S>Min.Behold</SCRTEXT_S>
+     <SCRTEXT_M>Min.beholdning</SCRTEXT_M>
+     <SCRTEXT_L>Min.beholdning</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Estoque mínimo</DDTEXT>
+     <SCRTEXT_S>Estoq.mín.</SCRTEXT_S>
+     <SCRTEXT_M>Estoque mínimo</SCRTEXT_M>
+     <SCRTEXT_L>Estoque mínimo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Minimálna zásoba</DDTEXT>
+     <SCRTEXT_S>Min.zásoba</SCRTEXT_S>
+     <SCRTEXT_M>Minimál.zásoba</SCRTEXT_M>
+     <SCRTEXT_L>Minimál.zásoba</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Минимальный запас</DDTEXT>
+     <SCRTEXT_S>МинимЗапас</SCRTEXT_S>
+     <SCRTEXT_M>Мин. запас</SCRTEXT_M>
+     <SCRTEXT_L>Мин. запас</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Stock mínimo</DDTEXT>
+     <SCRTEXT_S>Stock mín.</SCRTEXT_S>
+     <SCRTEXT_M>Stock mínimo</SCRTEXT_M>
+     <SCRTEXT_L>Stock mínimo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Asgari stok</DDTEXT>
+     <SCRTEXT_S>Asg.stok</SCRTEXT_S>
+     <SCRTEXT_M>Asgari stok</SCRTEXT_M>
+     <SCRTEXT_L>Asgari stok</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Minimivarasto</DDTEXT>
+     <SCRTEXT_S>Minimivar.</SCRTEXT_S>
+     <SCRTEXT_M>Minimivarasto</SCRTEXT_M>
+     <SCRTEXT_L>Minimivarasto</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Lägsta lagernivå</DDTEXT>
+     <SCRTEXT_S>Min. lager</SCRTEXT_S>
+     <SCRTEXT_M>Lägsta lager</SCRTEXT_M>
+     <SCRTEXT_L>Lägsta lager</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Минимален запас</DDTEXT>
+     <SCRTEXT_S>Мин. запас</SCRTEXT_S>
+     <SCRTEXT_M>Минимал. запас</SCRTEXT_M>
+     <SCRTEXT_L>Минимал. запас</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DDTEXT>Minimalios atsargos</DDTEXT>
+     <SCRTEXT_S>Min. ats.</SCRTEXT_S>
+     <SCRTEXT_M>Min. atsargos</SCRTEXT_M>
+     <SCRTEXT_L>Min. atsargos</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DDTEXT>Minimālais krājums</DDTEXT>
+     <SCRTEXT_S>Min. krāj.</SCRTEXT_S>
+     <SCRTEXT_M>Minim. krāj.</SCRTEXT_M>
+     <SCRTEXT_L>Minim. krāj.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>c</DDLANGUAGE>
+     <DDTEXT>Estoc mínim</DDTEXT>
+     <SCRTEXT_S>Estoc mín.</SCRTEXT_S>
+     <SCRTEXT_M>Estoc mínim</SCRTEXT_M>
+     <SCRTEXT_L>Estoc mínim</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DDTEXT>Minimalne zalihe</DDTEXT>
+     <SCRTEXT_S>Min.zalihe</SCRTEXT_S>
+     <SCRTEXT_M>Minimal.zalihe</SCRTEXT_M>
+     <SCRTEXT_L>Minimal.zalihe</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>묩</DDLANGUAGE>
+     <DDTEXT>न्यूनतम स्टॉक</DDTEXT>
+     <SCRTEXT_S>न्यून.स्ट.</SCRTEXT_S>
+     <SCRTEXT_M>न्यूनतम स्टॉक</SCRTEXT_M>
+     <SCRTEXT_L>न्यूनतम स्टॉक</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>뱋</DDLANGUAGE>
+     <DDTEXT>Минималды қор</DDTEXT>
+     <SCRTEXT_S>Мин.қор</SCRTEXT_S>
+     <SCRTEXT_M>Минималды қор</SCRTEXT_M>
+     <SCRTEXT_L>Минималды қор</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>쁩</DDLANGUAGE>
+     <DDTEXT>Tồn kho tối thiểu</DDTEXT>
+     <SCRTEXT_S>T.kho t.t</SCRTEXT_S>
+     <SCRTEXT_M>T.kho t.thiểu</SCRTEXT_M>
+     <SCRTEXT_L>T.kho t.thiểu</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

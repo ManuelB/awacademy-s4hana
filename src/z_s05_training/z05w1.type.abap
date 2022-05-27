@@ -1,0 +1,5 @@
+TYPE-POOL Z05W1.
+
+TYPES:
+Z05W1_planetypes TYPE TABLE OF saplane
+    WITH NON-UNIQUE KEY planetype.

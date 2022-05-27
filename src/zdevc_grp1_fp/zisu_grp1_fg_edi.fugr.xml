@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>FG EDI</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZISU_GRP1_FG_EDITOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZISU_GRP1_FG_EDI</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZBAPI_GRP1_EDI</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>BAPI EDI</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_AUFTNR</PARAMETER>
+       <TYP>ZSD_GRP1_FP_WT-AUFTNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_KDNR</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZSD_GRP1_FP_KS-KDNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_WT</PARAMETER>
+       <TYP>ZSD_GRP1_FP_WT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_KS</PARAMETER>
+       <TYP>ZSD_GRP1_FP_KS</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_TEXT</PARAMETER>
+       <TYP>PSSCT_DBS_ENTITY_SEL_CONF_T</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_AUFTNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Kundenauftragsnummer</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_KDNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Kundenauftragsnummer</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_WT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Wechseltabelle</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_KS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interessenten-Tabelle</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_TEXT</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

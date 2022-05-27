@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZMSG_GRP1</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Nachrichten MP1</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP1</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Artikelnummer konnte nicht selektiert werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP1</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Artikelgruppe konnte nicht selektiert werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP1</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Neuer Preis zu niedrig.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP1</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Neuer Preis zu hoch.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP1</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Artikel mit der Nummer &amp; wurde erfolgreich ausgelistet.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP1</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Der Preis des Artikelnummers &amp; wurde erfolgreich geändert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP1</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Artikelnr &amp;1 kann nicht ausgelistet werden. AKBES &amp;2 übersteigt MDBES &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP1</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Ein Fehler ist aufgetreten, bitte überprüfen Sie ihre Eingaben und versuc</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP1</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Keine Filiale mit dieser Nummer gefunden!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP1</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Filialdaten erfolgreich geändert!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP1</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Die Umlagerung des Artikels wurde erfolgreich verbucht.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP1</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Ein unbekannter Fehler ist aufgetreten!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP1</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Der Artikel ist nicht vorhanden!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP1</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Der Maximalbestand einer Aufnahmefiliale würde überschritten werden!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP1</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Der Mindestbestand einer Abgabefiliale würde unterschritten werden!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP1</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Filialdaten erfolreich auf die Stammdaten überschrieben!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP1</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Die Eingabe der Daten für die Telefonnummer enhält unzulässige Elemente!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMSG_GRP1</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Die Eingabe der Postleitzahl war ungültig.</TEXT>
+    </T100>
+   </T100>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZMSG_GRP1017</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00004</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMSG_GRP1017</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die eingegebenen Daten enthielten unzulässige Elemente!</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die folgende Fehlernachricht wurde aufgerufen: ZMSG_GRP1 Message e017.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bitte prüfen Sie Ihre Eingabe! Nur die Folgenden Zeichen sind erlaubt:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>1234567890 + / # und das Leerzeichen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZMSG_GRP1018</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00004</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMSG_GRP1018</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Eingabe der Postleitzahl enthielt unzulässige Zeichen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Fehlernachricht: Message e018</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bitte prüfen sie Ihre Eingabe auf Richtigkeit! Nur eine numerische</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Eingabe der Daten ist erlaubt. Für Dummies: 0123456789</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

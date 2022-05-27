@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service for zsd_grp2_sweets_service'
+define service Zsd_grp2_sweets_service {
+  expose zsd_grp2_Sweets;
+  expose Z_ART_STAMM_PROJ_VIEW as stamm_proj;
+}

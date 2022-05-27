@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>FUGR für Taschenrechner</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ_S01_FG_DEMOTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ_S01_FG_DEMO</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_S01_RECHNEN</FUNCNAME>
+     <SHORT_TEXT>Grundrechenarten</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_A</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BRUTEIL</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_OP</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZRK02_TY_OPERATOR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_B</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BRUTEIL</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_RES</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BRUTEIL</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ZERO_DIVIDE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_OPERATOR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NEGATIVE_ARGUMENT</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_A</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Bruchteilseigentum</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_OP</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_B</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Bruchteilseigentum</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_RES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Bruchteilseigentum</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ZERO_DIVIDE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Division durch Null</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_OPERATOR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Falscher Operator</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NEGATIVE_ARGUMENT</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Negatives Argument Für QDW</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_S01_RECHNEN_AUSGABE</FUNCNAME>
+     <SHORT_TEXT>AUSGABE für Taschenrechner</SHORT_TEXT>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

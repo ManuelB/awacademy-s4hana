@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition Tarife'
+define service ZSD_GRP3_TARIF {
+  expose ZC_GPR3_TAR_PROJ;
+}

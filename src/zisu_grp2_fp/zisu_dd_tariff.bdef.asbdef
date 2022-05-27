@@ -1,0 +1,13 @@
+managed implementation in class zbp_isu_dd_tariff unique;
+//strict; //Comment this line in to enable strict mode. The strict mode is prerequisite to be future proof regarding syntax and to be able to release your BO.
+
+define behavior for zisu_dd_tariff //alias <alias_name>
+persistent table ZISU_FP_TARIFE
+lock master
+// authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}

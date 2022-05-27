@@ -1,0 +1,5 @@
+TYPE-POOL Z11SW .
+
+TYPES:
+  Z11SW_ty_zahl     TYPE p LENGTH 5 DECIMALS 3,
+  Z11SW_ty_operator TYPE c LENGTH 1.

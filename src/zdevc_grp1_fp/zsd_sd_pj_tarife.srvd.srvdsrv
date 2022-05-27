@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition für PJ'
+define service ZSD_SD_PJ_TARIFE {
+  expose ZSD_PJ_TARIFE;
+}
